@@ -1,5 +1,5 @@
 import streamlit as st
-import logic  # Importamos nuestro módulo de lógica
+import logic
 
 # --- CONFIGURACIÓN UI ---
 st.set_page_config(page_title="AI Noticias Studio", page_icon="⚡", layout="wide")
@@ -28,16 +28,16 @@ if "current_chat" not in st.session_state:
 with st.sidebar:
     st.title("⚡ AI Studio")
     
-    if st.button("➕ Nuevo Chat", use_container_width=True):
+    if st.button("Nuevo Chat", use_container_width=True):
         st.session_state.current_chat = logic.create_new_chat_data()
         logic.save_chat_to_disk(st.session_state.current_chat)
         st.rerun()
     
     st.markdown("---")
-    st.caption("📜 Historial")
+    st.caption("Historial")
     
     for chat in logic.get_all_chats():
-        label = f"📂 {chat.get('title','Chat')}" if chat["id"] == st.session_state.current_chat["id"] else chat.get("title","Chat")
+        label = f"{chat.get('title','Chat')}" if chat["id"] == st.session_state.current_chat["id"] else chat.get("title","Chat")
         if st.button(label, key=chat["id"], use_container_width=True):
             loaded = logic.load_chat_from_disk(chat["id"])
             if loaded:
@@ -45,15 +45,15 @@ with st.sidebar:
                 st.rerun()
             
     st.markdown("---")
-    st.subheader("⚙️ Configuración")
+    st.subheader("Configuración")
     
-    # LISTA DE MODELOS ACTUALIZADA (Solo los fiables)
+    # LISTA LIMPIA (Solo los que funcionan 100%)
     selected_model = st.selectbox(
         "Modelo:",
         [
-            "openai/gpt-4o-mini",              # El mejor calidad/precio
-            "meta-llama/llama-3.1-8b-instruct",# Buena alternativa Open Source
-            "openai/gpt-4o"                    # El más inteligente
+            "openai/gpt-4o-mini",              # Estándar (Rápido y barato)
+            "meta-llama/llama-3.1-8b-instruct",# Open Source (Fiable)
+            "openai/gpt-4o"                    # Potente (Para razonamiento complejo)
         ],
         index=0
     )
@@ -63,7 +63,7 @@ with st.sidebar:
     debug_mode = st.checkbox("Modo Debug", value=True)
     
     st.markdown("---")
-    if st.button("🗑️ Eliminar Chat", type="primary", use_container_width=True):
+    if st.button("Eliminar Chat", type="primary", use_container_width=True):
         logic.delete_chat_from_disk(st.session_state.current_chat["id"])
         existing = logic.get_all_chats()
         st.session_state.current_chat = existing[0] if existing else logic.create_new_chat_data()
