@@ -11,7 +11,6 @@ from langchain_core.output_parsers import StrOutputParser
 from elasticsearch import Elasticsearch
 from dotenv import load_dotenv
 
-# Cargar entorno al importar este módulo
 load_dotenv()
 
 # --- CONSTANTES ---
@@ -37,7 +36,7 @@ def get_elastic_client():
         st.error(f"Error Elastic: {e}")
         return None
 
-# --- GESTIÓN DE MODELOS LLM ---
+# --- GESTIÓN DE MODELOS ---
 def load_llm(model_name, temp):
     return ChatOpenAI(
         model_name=model_name,
@@ -52,9 +51,9 @@ def optimize_query(user_query, llm_instance):
     if len(user_query.split()) < 4: return user_query
     
     system_prompt = """Eres un experto en búsqueda. 
-    1. Elimina palabras vacías (dime, sobre, la, información).
+    1. Elimina palabras vacías (dime, sobre, la, información, actuales, ultimas).
     2. CORRIGE ortografía (Karlos -> Carlos).
-    3. Devuelve SOLO las palabras clave."""
+    3. Devuelve SOLO las palabras clave temáticas."""
     
     prompt = ChatPromptTemplate.from_messages([("system", system_prompt), ("user", "{query}")])
     chain = prompt | llm_instance | StrOutputParser()
@@ -66,25 +65,38 @@ def clean_response(text):
         text = re.sub(p, "", text, flags=re.IGNORECASE).strip()
     return text
 
-# --- BÚSQUEDA EN ELASTIC ---
+# --- BÚSQUEDA EN ELASTIC (LÓGICA CONVERSACIONAL) ---
 def search_elastic(query_text, k=5):
     es_client = get_elastic_client()
     if not es_client: return []
     
-    generic_keywords = ["actuales", "actualidad", "hoy", "últimas", "noticias", "tienes", "pasa", "resumen", "dime algo", "novedades"]
-    is_generic = any(word in query_text.lower() for word in generic_keywords)
+    # Palabras que indican temporalidad o continuidad de conversación
+    generic_keywords = [
+        "actuales", "actualidad", "hoy", "últimas", "recientes", "novedades", "ahora",
+        "tienes", "algo más", "algo mas", "más cosas", "mas cosas", "otros temas", "nada más", "nada mas"
+    ]
     
-    if is_generic:
+    stopwords = ["dime", "las", "los", "un", "una", "sobre", "de", "en", "que", "noticias", "informacion"] + generic_keywords
+    
+    query_words = query_text.lower().split()
+    topic_words = [w for w in query_words if w not in stopwords]
+    
+    is_purely_generic = len(topic_words) == 0
+    
+    if is_purely_generic:
+        # Caso: "¿Tienes algo más?", "Noticias actuales"
+        # Devuelve las últimas noticias generales para seguir la conversación
         query_body = {"match_all": {}}
         sort_body = [{"@timestamp": {"order": "desc"}}]
     else:
+        # Caso Específico: "Cristiano Ronaldo"
         query_body = {
             "multi_match": {
                 "query": query_text,
                 "fields": ["title^3", "body", "author"],
                 "fuzziness": "AUTO",
                 "operator": "OR",
-                "minimum_should_match": "60%"
+                "minimum_should_match": "40%" # Bajamos exigencia para encontrar más resultados (Ronaldo)
             }
         }
         sort_body = []
@@ -108,7 +120,7 @@ def search_elastic(query_text, k=5):
         })
     return docs
 
-# --- GESTIÓN DE CHATS (PERSISTENCIA) ---
+# --- GESTIÓN DE CHATS ---
 def get_all_chats():
     files = glob.glob(f"{CHATS_DIR}/*.json")
     files.sort(key=os.path.getmtime, reverse=True)
@@ -119,7 +131,7 @@ def get_all_chats():
             except: pass
     return chats
 
-def create_new_chat():
+def create_new_chat_data():
     return {
         "id": str(uuid.uuid4()),
         "title": "Nuevo Chat",
@@ -144,23 +156,30 @@ def load_chat_from_disk(chat_id):
             return json.load(f)
     return None
 
-# --- SYSTEM PROMPT ---
+# --- SYSTEM PROMPT (ANTI-POEMAS y CONVERSACIONAL) ---
 def get_rag_chain(llm_instance):
     template = """
-    SITUACIÓN: Eres un periodista de investigación y asistente de noticias.
+    SITUACIÓN: Eres un periodista de investigación serio y un asistente de noticias.
     FECHA ACTUAL: Diciembre 2025.
 
-    INSTRUCCIONES DE COMPORTAMIENTO:
-    1. IDIOMA: Si el usuario te habla en español, RESPONDE EN ESPAÑOL. Solo rechaza si te hablan explícitamente en otro idioma.
-    2. FUENTE DE VERDAD: Considera las noticias proporcionadas en <context> como la verdad absoluta.
-    3. PROACTIVIDAD: Si la respuesta exacta no está, di "No tengo ese dato exacto, pero tengo noticias sobre..." y lista lo que haya en el contexto.
-    4. PROHIBIDO CÓDIGO: No generes código informático.
+    INSTRUCCIONES ESTRICTAS:
+    1. IDIOMA: Responde siempre en ESPAÑOL.
+    2. FUENTE DE VERDAD: Usa SOLO las noticias en <context>.
+    
+    3. PROHIBICIONES (IMPORTANTE):
+       - NO escribas poemas, cuentos, canciones ni contenido literario creativo. Si el usuario lo pide, di: "Lo siento, soy un asistente de noticias, no puedo generar contenido creativo."
+       - NO generes código informático.
+
+    4. GESTIÓN DE RESPUESTAS:
+       - Si el usuario pregunta "¿Algo más?" o "¿Qué más tienes?", resume las noticias adicionales que aparecen en el contexto.
+       - Si la respuesta exacta NO está, di: "No tengo más información sobre ese tema específico, pero en mi base de datos tengo noticias recientes sobre: [Lista temas del contexto]".
+       - Sé natural: Si no hay más datos, dilo claramente: "No dispongo de más noticias relacionadas en este momento."
 
     <context>
     {context}
     </context>
 
-    PREGUNTA DEL USUARIO:
+    PREGUNTA:
     {question}
     """
     prompt = ChatPromptTemplate.from_template(template)
