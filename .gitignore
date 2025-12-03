@@ -1,0 +1,65 @@
+# --- 1. SEGURIDAD Y SECRETOS (¡CRÍTICO!) ---
+.env
+.env.local
+*.key
+*.pem
+*.crt
+http_ca.crt
+# El certificado de Elastic no debe subirse
+
+# --- 2. ENTORNOS VIRTUALES PYTHON ---
+venv/
+env/
+.venv/
+.env/
+
+# --- 3. ARCHIVOS COMPILADOS Y CACHÉ ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- 4. BASES DE DATOS LOCALES Y DATOS ---
+# Ignoramos la carpeta de datos para no subir el CSV (privacidad/tamaño)
+data/
+# Ignoramos bases de datos vectoriales locales antiguas
+chroma_db/
+chroma_db_new/
+*.sqlite3
+*.db
+
+# --- 5. IDE Y CONFIGURACIÓN DEL EDITOR ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- 6. SISTEMA OPERATIVO ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# --- 7. LOGS Y ERRORES ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- 8. STREAMLIT ---
+.streamlit/secrets.toml
