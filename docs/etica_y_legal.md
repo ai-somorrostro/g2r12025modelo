@@ -1,24 +1,21 @@
-# ⚖️ Informe de Cumplimiento Ético y Legal (RA6)
+# Informe de Cumplimiento Ético y Legal (RA6)
 
-## 1. Security by Design (Seguridad desde el Diseño)
-Para cumplir con el criterio de protección frente a ataques y errores, se han implementado las siguientes medidas:
-*   **Gestión de Secretos:** Ninguna credencial (API Keys, contraseñas de Elastic) está hardcodeada en el código. Se utilizan variables de entorno (`.env`) que no se suben al repositorio.
-*   **Aislamiento de Red:** El chatbot se conecta a Elasticsearch mediante HTTPS (o HTTP interno controlado), asegurando que los datos no viajan por redes públicas innecesarias.
-*   **Cortafuegos Semántico:** El System Prompt actúa como barrera de seguridad, impidiendo que el chatbot responda a preguntas fuera de ámbito (ej. matemáticas o temas sensibles no indexados).
+## 1. Seguridad desde el Diseño (Security by Design)
+*   **Gestión de Secretos:** Se aplica una política de "Cero Confianza". Ninguna credencial (API Keys, contraseñas) se almacena en el código fuente. Se utilizan variables de entorno (`.env`) inyectadas en tiempo de ejecución.
+*   **Autenticación Robusta:** La conexión con la base de datos Elasticsearch utiliza **API Keys** específicas con permisos limitados, evitando el uso de credenciales de superusuario básicas.
+*   **Cifrado:** Todas las comunicaciones con la base de datos están cifradas mediante SSL/TLS (`http_ca.crt`).
 
-## 2. Privacy by Design (Privacidad)
-*   **Minimización de Datos:** Solo se envían al LLM los fragmentos de texto estrictamente necesarios para responder a la pregunta del usuario. La base de datos completa permanece en la infraestructura local (Elasticsearch), cumpliendo con la soberanía del dato.
-*   **Anonimización:** El sistema no almacena datos personales de los usuarios que realizan las consultas en ninguna base de datos persistente del chatbot.
+## 2. Privacidad y Soberanía del Dato
+*   **Procesamiento Local de Vectores:** La vectorización de las consultas se realiza mediante una API interna controlada, evitando enviar los textos de búsqueda a proveedores de embeddings públicos.
+*   **Almacenamiento Controlado:** El historial de conversaciones y los logs de depuración se almacenan localmente en volúmenes Docker bajo el control del administrador, sin realizar copias en nubes de terceros no autorizadas.
+*   **Minimización:** Solo se envían al LLM los fragmentos de texto estrictamente necesarios para responder a la consulta en curso.
 
-## 3. Sesgos y Equidad
-Se ha instruido al modelo mediante el System Prompt para mantener un **tono neutral y periodístico**.
-*   **Mitigación de Sesgos:** En caso de noticias donde el género no sea relevante o especificado, el modelo está instruido para usar lenguaje inclusivo o neutro, evitando asunciones estereotipadas.
+## 3. Ética y Transparencia (XAI)
+*   **Explicabilidad:** La interfaz muestra claramente las fuentes (URLs) y la puntuación de relevancia (`_score`) de cada noticia utilizada. Esto permite al usuario verificar la veracidad de la información y entender por qué el sistema seleccionó esos datos.
+*   **Control de Contenidos:** El System Prompt incluye directrices estrictas para evitar la generación de contenido no relacionado con noticias (poemas, código, ficción) y bloquea intentos de uso para fines no informativos.
+*   **Neutralidad:** El modelo está instruido para mantener un tono objetivo y periodístico.
 
-## 4. Licencias de Uso
-| Componente | Licencia | Uso en el Proyecto |
-| :--- | :--- | :--- |
-| **Streamlit** | Apache 2.0 | Interfaz de Usuario (Open Source) |
-| **LangChain** | MIT | Orquestación lógica (Open Source) |
-| **Elasticsearch** | Elastic License 2.0 | Motor de Búsqueda |
-| **GPT-4o-mini** | Propietaria (OpenAI) | Generación de texto (Uso comercial permitido vía API) |
-| **Código Propio** | MIT | Se libera el código del chatbot bajo licencia MIT. |
+## 4. Propiedad Intelectual
+*   **Licencia del Software:** El código fuente desarrollado para este proyecto se distribuye bajo licencia **MIT**.
+*   **Componentes de Terceros:** Se respetan las licencias de las librerías utilizadas (Apache 2.0 para Streamlit, MIT para LangChain, Elastic License para el driver).
+*   **Contenidos:** El sistema actúa como un motor de indexación y búsqueda. Los derechos de propiedad intelectual sobre el contenido de las noticias pertenecen a sus respectivos autores y medios de comunicación.
