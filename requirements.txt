@@ -1,0 +1,9 @@
+streamlit
+langchain
+langchain-openai
+langchain-community
+langchain-core
+elasticsearch
+python-dotenv
+requests
+ftfy
