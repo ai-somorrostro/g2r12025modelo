@@ -124,7 +124,7 @@ Este comando inicia el servidor de la aplicación.
 
 Ejecute:
 ```bash
-sudo docker run -p 8501:8501 --env-file .env -v $(pwd)/chats_data:/app/chats news-ai-bot
+docker compose up -d --build
 ```
 
 **Explicación del comando:**
