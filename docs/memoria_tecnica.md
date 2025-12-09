@@ -1,40 +1,53 @@
-# Memoria Técnica del Proyecto NewsAI
+# 📘 Memoria Técnica del Proyecto NewsAI
 
 ## 1. Selección del Modelo de Lenguaje (LLM)
-Se ha seleccionado **GPT-4o-mini** como motor principal de inferencia tras un análisis comparativo de rendimiento y coste.
+Para este proyecto se ha seleccionado el modelo **GPT-4o-mini** a través de OpenRouter.
 
-*   **Eficiencia:** Ofrece la latencia más baja (<1s) para tareas de RAG, crucial para la experiencia de usuario en tiempo real.
-*   **Coste:** Su ratio coste/rendimiento es superior a modelos mayores para tareas de síntesis y clasificación de texto.
-*   **Ventana de Contexto:** Sus 128k tokens permiten inyectar múltiples noticias completas sin perder información.
+**Justificación y Comparativa:**
+| Característica | GPT-4o-mini (Seleccionado) | Llama 3 (Local) | GPT-4 Turbo |
+| :--- | :--- | :--- | :--- |
+| **Coste** | Muy bajo ($0.15/1M tokens) | Gratuito (Hardware) | Alto |
+| **Latencia** | Muy baja (<1s) | Depende de GPU | Media |
+| **Ventana de Contexto** | 128k tokens | 8k - 128k | 128k |
+| **Capacidad RAG** | Alta (Instrucciones complejas) | Media | Muy Alta |
 
-## 2. Arquitectura del Sistema (Patrón MVC)
-El sistema se ha refactorizado siguiendo un patrón de diseño desacoplado para garantizar la mantenibilidad y la separación de responsabilidades:
+**Decisión:** Se elige GPT-4o-mini por ofrecer el mejor equilibrio entre **capacidad de razonamiento** para tareas RAG y **eficiencia de costes** para un entorno de producción, superando a modelos locales que requerirían hardware dedicado costoso en la infraestructura del instituto.
 
-1.  **Frontend (`src/app.py`):** Capa de presentación desarrollada en Streamlit. Se encarga exclusivamente de la visualización de datos, gestión del estado de la sesión y renderizado de métricas de relevancia.
-2.  **Backend Lógico (`src/logic.py`):** Núcleo del sistema. Centraliza la conexión con Elasticsearch, la gestión de modelos, el enrutamiento semántico y el sistema de registro (logging).
-3.  **Microservicio de Embeddings:** Se utiliza una API externa dedicada (`/api/embed`) para la vectorización de consultas, optimizando el consumo de memoria RAM del contenedor principal al no cargar modelos pesados localmente.
+## 2. Arquitectura y Flujo de la Conversación
+El sistema sigue una arquitectura **RAG (Retrieval-Augmented Generation)** desacoplada:
 
-## 3. Estrategia de Búsqueda Híbrida e Inteligente
-Se ha implementado un sistema de recuperación de información avanzado que combina técnicas léxicas y semánticas:
+1.  **Input del Usuario:** El usuario realiza una pregunta en lenguaje natural.
+2.  **Recuperación (Retrieval):**
+    *   El sistema conecta con **Elasticsearch** (Puerto 9200).
+    *   Se ejecuta una búsqueda de texto completo (`multi_match`) sobre los campos `title`, `body` y `author`.
+    *   Se recuperan los 5 documentos más relevantes (Top-K).
+3.  **Aumento (Augmentation):**
+    *   Se construye un contexto único concatenando los fragmentos recuperados.
+    *   Se inyectan instrucciones de seguridad (System Prompt).
+4.  **Generación:** El LLM genera la respuesta basándose *exclusivamente* en el contexto inyectado.
 
-*   **Router Semántico (NLP):** Un módulo previo analiza la consulta del usuario para extraer la intención.
-    *   *Intención Temporal:* Detecta expresiones como "ayer" o "esta semana", calcula la fecha relativa y aplica filtros de rango en la base de datos.
-    *   *Intención Temática:* Extrae las entidades clave (ej: "FC Barcelona") eliminando ruido lingüístico.
-*   **Búsqueda Vectorial (k-NN):** Utiliza vectores densos (768 dimensiones) generados por el modelo `paraphrase-multilingual-mpnet-base-v2` para encontrar similitud semántica.
-*   **Métricas de Relevancia:** El sistema calcula y muestra al usuario un "Score de Confianza" basado en la similitud del coseno de los documentos recuperados, aumentando la explicabilidad del sistema.
+## 3. Diseño del System Prompt
+Se ha implementado una estrategia de **"Prompt de Amnesia"** para mitigar alucinaciones.
 
-## 4. Sistema de Depuración y Trazabilidad
-Para cumplir con los criterios de "Pruebas y Depuración", se ha desarrollado un módulo de **Debug Logger**.
-*   Cada interacción genera un archivo de log JSON detallado en el servidor.
-*   El panel de control permite inspeccionar en tiempo real: la consulta original, la interpretación del Router, los parámetros de búsqueda enviados a Elasticsearch y los scores individuales de cada documento recuperado.
+*   **Iteración 1 (Básica):** "Responde a la pregunta con el texto". *Resultado:* El modelo usaba conocimientos externos (ej. datos de 2023).
+*   **Iteración 2 (Final - Optimizada):** Se fuerza al modelo a ignorar conocimientos previos y se simula una fecha actual (Diciembre 2025). Se añaden cláusulas negativas ("Si no lo sabes, di que no hay información").
 
-## 5. Diseño del System Prompt
-El prompt del sistema ha sido diseñado con instrucciones de "Cadena de Pensamiento" y restricciones de seguridad:
-*   **Rigor Factual:** Instrucción estricta de basar las respuestas únicamente en el contexto proporcionado.
-*   **Capacidades Permitidas:** Se habilita explícitamente la capacidad de resumir y sintetizar información, siempre que los datos provengan de la base de datos.
-*   **Bloqueo de Alucinaciones:** Si el contexto está vacío, el modelo debe responder que no dispone de información.
+## 4. Optimización y Ajuste
+*   **Temperatura 0.0:** Se ha configurado la temperatura a 0 para eliminar la creatividad y garantizar la **facticidad** (necesario en noticias).
+*   **Búsqueda Híbrida:** Ante la incompatibilidad de dimensiones vectoriales (384 vs 768), se optó por una búsqueda `multi_match` (BM25) que ha demostrado ser más robusta para encontrar términos específicos ("DANA", "Mazón") que la búsqueda vectorial pura en este escenario.
 
-## 6. Implementación y Despliegue
-*   **Docker:** El entorno está contenerizado (`python:3.9-slim`) para garantizar la reproducibilidad.
-*   **Persistencia:** Se utilizan volúmenes de Docker para almacenar el historial de chats (`/chats_data`) y los logs de depuración (`/debug_logs`), asegurando la persistencia de datos tras reinicios.
-*   **Seguridad:** La conexión con Elasticsearch se realiza mediante autenticación por API Key y cifrado SSL.
+## 5. Pre-procesamiento de Consultas con NLP (Novedad Técnica)
+Para mejorar la precisión de la recuperación (Retrieval), se ha implementado un módulo de **Optimización de Consultas** basado en LLM antes de realizar la búsqueda en Elasticsearch.
+
+**Problema detectado:**
+Las búsquedas vectoriales o de texto fallaban ante:
+1.  Errores ortográficos del usuario (ej: "Karlos Mazon").
+2.  "Ruido" en la frase (ej: "Dime por favor las noticias más actuales sobre la DANA").
+
+**Solución Implementada:**
+Se utiliza una cadena de procesamiento (LangChain) que recibe el input crudo del usuario y lo transforma en una **query canónica** optimizada para el motor de búsqueda.
+*   *Input:* "Dime cosas de Karlos"
+*   *Proceso NLP:* Corrección ortográfica + Eliminación de Stopwords.
+*   *Output:* "Carlos" -> Esto es lo que se envía a Elasticsearch.
+
+Esto demuestra una aplicación avanzada de NLP para mejorar la interacción humano-máquina.
