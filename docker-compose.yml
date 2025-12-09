@@ -8,6 +8,9 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8501:8501"
+    volumes:
+      - ./chats_data:/app/chats           
+      - ./debug_logs:/app/debug_logs      
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8501/_stcore/health"]
@@ -16,3 +19,5 @@ services:
       retries: 3
     env_file:
       - .env
+    environment:
+      - PYTHONUNBUFFERED=1               
