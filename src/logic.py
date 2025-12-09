@@ -165,7 +165,7 @@ class RemoteEmbeddings(Embeddings):
             return list(data.values())[0]
         except Exception as e:
             print(f"Error en API Embeddings: {e}")
-            return []
+            return [], debug_logger
 
 # --- CONFIGURACIÓN ELASTICSEARCH ---
 @st.cache_resource
@@ -329,7 +329,7 @@ def search_elastic(user_query, llm_instance, k=5, debug_logger=None):
     es_client = get_elastic_client()
     if not es_client:
         debug_logger.add_log("Cliente Elasticsearch no disponible", "ERROR")
-        return []
+        return [], debug_logger
 
     intent = analyze_intent(user_query, llm_instance, debug_logger)
     topic = intent.get("topic", "general")
@@ -341,7 +341,7 @@ def search_elastic(user_query, llm_instance, k=5, debug_logger=None):
     if topic in ["SALUDO", "INTENTO_PROHIBIDO"]:
         debug_logger.add_log("Búsqueda bloqueada por tipo de intent", "WARNING")
         debug_logger.save()
-        return []
+        return [], debug_logger
 
     search_kwargs = {
         "index": os.getenv("ELASTIC_INDEX"),
@@ -389,7 +389,7 @@ def search_elastic(user_query, llm_instance, k=5, debug_logger=None):
         except Exception as e:
             debug_logger.add_log(f"Error en match_all: {e}", "ERROR")
             debug_logger.save()
-            return []
+            return [], debug_logger
             
     else:
         # Búsqueda vectorial con tema específico
@@ -467,7 +467,7 @@ def search_elastic(user_query, llm_instance, k=5, debug_logger=None):
             except Exception as text_error:
                 debug_logger.add_log(f"Error en búsqueda por texto: {text_error}", "ERROR")
                 debug_logger.save()
-                return []
+                return [], debug_logger
 
     # Procesar resultados
     docs = []

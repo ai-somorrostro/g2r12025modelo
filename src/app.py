@@ -27,10 +27,9 @@ if "current_chat" not in st.session_state:
 
 # --- SIDEBAR ---
 with st.sidebar:
-    st.title("AI Studio")
+    st.title("⚡ AI Studio")
     
     st.markdown("---")
-    # Botón para mostrar/ocultar panel de debug
     if st.button("Ver Logs de Debug", use_container_width=True):
         st.session_state.show_debug_panel = not st.session_state.get("show_debug_panel", False)    
 
@@ -68,7 +67,6 @@ with st.sidebar:
                     if st.button("Borrar", key=f"del_{log['log_id']}"):
                         logic.delete_debug_log(log['log_id'])
                         st.rerun()
-    # ----------------------
 
     st.markdown("---")
     st.caption("Historial de Chats")
@@ -145,8 +143,52 @@ if q := st.chat_input("Escribe tu consulta..."):
             
             # Obtenemos resumen del log
             log_summary = debug_log.get_summary()
+            intent_topic = log_summary.get('topic')
+
+            # --- CASO 1: INTENTO PROHIBIDO (Código, Matemáticas, Poemas) ---
+            if intent_topic == 'INTENTO_PROHIBIDO':
+                resp = """
+                **Solicitud no permitida**
+    
+                Este asistente está diseñado exclusivamente para consultar y analizar **noticias**.
+    
+                **No puedo ayudarte con:**
+                - Generar código (Python, HTML, CSS, etc.)
+                - Realizar cálculos matemáticos
+                - Escribir contenido creativo (poemas, cuentos)
+    
+                ¿Te gustaría consultar alguna noticia reciente? 📰
+                """
+                st.warning("⚠️ Solicitud fuera de ámbito")
+                st.markdown(resp)
+                
+                # Guardar y salir
+                st.session_state.current_chat["messages"].append({"role": "assistant", "content": resp})
+                logic.save_chat_to_disk(st.session_state.current_chat)
+                st.stop() # Detenemos aquí para no seguir procesando
+
+            # --- CASO 2: SALUDO ---
+            if intent_topic == 'SALUDO':
+                resp = """
+                ¡Hola! Soy tu asistente de noticias inteligente.
+    
+                Puedo ayudarte a:
+                - Buscar noticias por tema ("Qué pasó con el Barça")
+                - Filtrar por fecha ("Noticias de ayer")
+                - Resumir la actualidad
+    
+                ¿Qué te gustaría saber hoy?
+                """
+                st.markdown(resp)
+                
+                # Guardar y salir
+                st.session_state.current_chat["messages"].append({"role": "assistant", "content": resp})
+                logic.save_chat_to_disk(st.session_state.current_chat)
+                st.stop()
+
+            # --- CASO 3: BÚSQUEDA ESTÁNDAR (RAG) ---
             
-            # --- ANÁLISIS DE RESULTADOS ---
+            # Análisis de métricas
             search_type = "UNKNOWN"
             avg_score = 0.0
             
@@ -160,7 +202,7 @@ if q := st.chat_input("Escribe tu consulta..."):
             else:
                 search_type = "NO_RESULTS"
             
-            # --- VISUALIZACIÓN DE MÉTRICAS ---
+            # Visualización de métricas
             if show_search_type and results:
                 col1, col2, col3 = st.columns(3)
                 with col1:
@@ -172,16 +214,16 @@ if q := st.chat_input("Escribe tu consulta..."):
                     latest = max([doc.get('date', 'N/A') for doc in results]) if results else 'N/A'
                     st.metric("Fecha", latest[:10])
 
-            # --- DEBUG INFO EN CHAT ---
+            # Debug Info
             if debug_mode and results:
-                with st.expander("Información Técnica Inmediata"):
+                with st.expander("🔧 Información Técnica Inmediata"):
                     st.markdown(f"**Log ID:** `{log_summary['log_id']}`")
                     st.markdown("**Scores individuales:**")
                     for i, doc in enumerate(results[:5], 1):
                         score_type = "Vector" if 0 < doc['score'] < 1 else "Texto" if doc['score'] > 1 else "Fecha"
                         st.text(f"{i}. [{doc['score']:.4f}] ({score_type}) - {doc['title'][:50]}...")
 
-            # --- CONSTRUCCIÓN DEL CONTEXTO ---
+            # Construcción del Contexto
             ctx = ""
             html_sources = ""
             
@@ -204,13 +246,13 @@ if q := st.chat_input("Escribe tu consulta..."):
                 ctx = "No se encontraron noticias coincidentes en la base de datos."
                 st.warning("No se encontraron resultados para tu consulta.")
 
-            # --- GENERACIÓN DE RESPUESTA ---
+            # Generación de Respuesta
             rag_chain = logic.get_rag_chain(llm)
             raw_resp = rag_chain.invoke({"context": ctx, "question": q})
             resp = logic.clean_response(raw_resp)
             
             # Pie de página
-            metric_label = "Semántica" if search_type == "VECTOR_KNN" else "📅 Temporal" if search_type == "TEMPORAL" else "🔤 Texto"
+            metric_label = "Semántica" if search_type == "VECTOR_KNN" else "Temporal" if search_type == "TEMPORAL" else "Texto"
             resp += f"\n\n---\n* {metric_label} | Modelo: {selected_model} | Log ID: `{log_summary['log_id']}`*"
             
             st.markdown(resp)
@@ -219,7 +261,7 @@ if q := st.chat_input("Escribe tu consulta..."):
                 with st.expander(f"Ver {len(results)} fuentes utilizadas"): 
                     st.markdown(html_sources, unsafe_allow_html=True)
     
-    # 3. Guardar respuesta
+    # 3. Guardar respuesta final
     st.session_state.current_chat["messages"].append({"role": "assistant", "content": resp})
     logic.save_chat_to_disk(st.session_state.current_chat)
     st.rerun()
