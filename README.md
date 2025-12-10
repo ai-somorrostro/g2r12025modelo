@@ -8,7 +8,7 @@ El sistema permite a los usuarios interactuar mediante lenguaje natural con una 
 1.  Descripción del Sistema
 2.  Requisitos Previos
 3.  Instalación y Configuración
-4.  Despliegue con Docker
+4.  Despliegue con Docker Compose
 5.  Manual de Uso
 6.  Detención del Sistema
 7.  Estructura del Proyecto
@@ -19,19 +19,19 @@ El sistema permite a los usuarios interactuar mediante lenguaje natural con una 
 
 El software actúa como un intermediario inteligente entre el usuario y una base de datos de noticias. Sus funciones principales incluyen:
 
-*   **Búsqueda Semántica y de Texto:** Conexión directa con índices de Elasticsearch.
-*   **Procesamiento de Lenguaje Natural (NLP):** Módulo intermedio que corrige errores ortográficos y detecta la intención del usuario antes de realizar la búsqueda.
-*   **Persistencia de Datos:** Almacenamiento local del historial de conversaciones.
-*   **Seguridad:** Gestión de credenciales mediante variables de entorno y aislamiento de ejecución mediante contenedores.
+*   **Búsqueda Híbrida:** Combinación de búsqueda vectorial (semántica) y búsqueda de texto completo en Elasticsearch.
+*   **Procesamiento de Lenguaje Natural (NLP):** Módulo intermedio que corrige errores ortográficos, detecta la intención del usuario y calcula filtros temporales antes de realizar la búsqueda.
+*   **Persistencia de Datos:** Almacenamiento local del historial de conversaciones y registros de depuración (logs).
+*   **Seguridad:** Gestión de credenciales mediante variables de entorno, autenticación por API Key y aislamiento de ejecución mediante contenedores.
 
 ---
 
 ## 2. Requisitos Previos
 
-Para ejecutar este proyecto, es necesario disponer de los siguientes elementos. Si no dispone de ellos, siga las instrucciones adjuntas.
+Para ejecutar este proyecto, es necesario disponer de los siguientes elementos.
 
 ### 2.1. Entorno de Ejecución (Docker)
-El proyecto se ejecuta dentro de un contenedor para garantizar la compatibilidad. Debe tener Docker instalado en su sistema.
+El proyecto se ejecuta dentro de un contenedor para garantizar la compatibilidad. Debe tener Docker y Docker Compose instalados en su sistema.
 
 **Instrucciones de instalación para Ubuntu/Linux:**
 Si no tiene Docker instalado, ejecute los siguientes comandos en su terminal:
@@ -44,20 +44,22 @@ sudo apt-get update
 sudo apt-get install ca-certificates curl gnupg
 
 # 3. Instalar Docker
-sudo apt-get install docker.io
+sudo apt-get install docker.io docker-compose-v2
 
 # 4. Verificar la instalación
-sudo docker --version
+sudo docker compose version
 ```
 
 ### 2.2. Acceso a Elasticsearch
 El sistema requiere conexión a una instancia de Elasticsearch activa. Necesitará:
 *   URL de conexión (IP y Puerto, habitualmente 9200).
-*   Nombre del índice de noticias.
-*   Credenciales de acceso (Usuario y Contraseña).
+*   **API Key** válida de Elasticsearch (codificada en Base64).
 *   Certificado de seguridad SSL (`http_ca.crt`) del servidor.
 
-### 2.3. Clave de API (LLM)
+### 2.3. Microservicio de Embeddings
+Es necesario disponer de acceso a la API de vectorización interna (habitualmente en el puerto 8000) para la generación de embeddings.
+
+### 2.4. Clave de API (LLM)
 Es necesaria una clave de API válida de OpenRouter o OpenAI para el funcionamiento del modelo de lenguaje.
 
 ---
@@ -67,7 +69,7 @@ Es necesaria una clave de API válida de OpenRouter o OpenAI para el funcionamie
 Siga estos pasos estrictamente para preparar el entorno antes de la ejecución.
 
 ### Paso 1: Ubicación de Archivos
-Asegúrese de estar ubicado en la carpeta raíz del proyecto. Debería ver los archivos `Dockerfile`, `requirements.txt` y la carpeta `src`.
+Asegúrese de estar ubicado en la carpeta raíz del proyecto. Debería ver los archivos `docker-compose.yml`, `requirements.txt` y la carpeta `src`.
 
 ### Paso 2: Configuración del Certificado de Seguridad
 Para que la conexión con la base de datos sea segura, debe copiar el archivo de certificado `http_ca.crt` proporcionado por su administrador de sistemas a la raíz de este proyecto.
@@ -81,56 +83,51 @@ El sistema no almacena contraseñas en el código. Debe crear un archivo de conf
 2.  Abra el archivo con un editor de texto y pegue el siguiente contenido, sustituyendo los valores de ejemplo por sus datos reales:
 
 ```ini
-# Configuración del Proveedor de IA
+# Configuración del Proveedor de IA (LLM)
 OPENAI_API_KEY=pegue_aqui_su_clave_api_completa
 
 # Configuración de la Base de Datos (Elasticsearch)
-ELASTIC_URL=https://XXX.XXX.X.XX:9200
-ELASTIC_INDEX=nombre_del_indice_de_noticias
-ELASTIC_USER=nombre_de_usuario
-ELASTIC_PASSWORD=contraseña_del_usuario
+ELASTIC_URL=https://192.199.1.XX:9200
+# Usar el comodín (*) permite buscar en los índices de todos los días
+ELASTIC_INDEX=noticias-*
+ELASTIC_API_KEY=pegue_aqui_su_api_key_de_elastic
 
 # Configuración de Seguridad SSL
 ELASTIC_CERT_PATH=./http_ca.crt
 ELASTIC_VERIFY_SSL=True
+
+# Configuración del Servicio de Embeddings
+EMBEDDING_API_URL=http://192.199.1.XX:8000/api/embed
 ```
 
 3.  Guarde y cierre el archivo.
 
 ### Paso 4: Preparación del Almacenamiento
-El sistema guarda el historial de los chats en su disco local. Debe crear la carpeta donde se almacenarán estos datos para evitar errores de permisos.
+El sistema guarda el historial de los chats y los registros de depuración en su disco local. Debe crear las carpetas donde se almacenarán estos datos para evitar errores de permisos.
 
 Ejecute en la terminal:
 ```bash
 mkdir -p chats_data
+mkdir -p debug_logs
 ```
 
 ---
 
-## 4. Despliegue con Docker
+## 4. Despliegue con Docker Compose
 
-Una vez configurado el entorno, proceda a construir y ejecutar la aplicación.
+Una vez configurado el entorno, proceda a construir y ejecutar la aplicación utilizando Docker Compose, que gestionará la red y los volúmenes automáticamente.
 
-### Paso 1: Construcción de la Imagen
-Este proceso empaqueta el código y descarga las librerías necesarias. Solo es necesario hacerlo la primera vez o cuando se modifique el código.
+### Ejecución del Servicio
+Ejecute el siguiente comando en la terminal:
 
-Ejecute:
 ```bash
-sudo docker build -t news-ai-bot .
-```
-
-### Paso 2: Ejecución del Contenedor
-Este comando inicia el servidor de la aplicación.
-
-Ejecute:
-```bash
-docker compose up -d --build
+sudo docker compose up -d --build
 ```
 
 **Explicación del comando:**
-*   `-p 8501:8501`: Hace accesible la aplicación web en el puerto 8501.
-*   `--env-file .env`: Carga las contraseñas configuradas en el paso anterior.
-*   `-v ...`: Conecta la carpeta local `chats_data` con el contenedor para que no se pierdan las conversaciones al apagar el sistema.
+*   `up`: Crea e inicia los contenedores.
+*   `-d`: Ejecuta el contenedor en segundo plano (modo "detached").
+*   `--build`: Fuerza la reconstrucción de la imagen para asegurar que se utiliza la última versión del código fuente.
 
 ---
 
@@ -142,31 +139,28 @@ Una vez el contenedor esté en ejecución:
 2.  Acceda a la dirección: `http://localhost:8501` (o la IP de su máquina virtual si accede remotamente).
 
 **Interfaz de Usuario:**
-*   **Barra Lateral (Izquierda):** Permite crear nuevos chats, ver el historial de conversaciones anteriores, cambiar el modelo de inteligencia artificial y ajustar la temperatura (creatividad).
+*   **Barra Lateral (Izquierda):**
+    *   **Nuevo Chat:** Inicia una sesión limpia.
+    *   **Historial:** Permite cargar conversaciones anteriores.
+    *   **Configuración:** Selección de modelo y temperatura.
+    *   **Ver Logs de Debug:** Abre un panel técnico para inspeccionar la lógica interna del sistema.
 *   **Chat (Centro):** Área de interacción. Escriba sus preguntas en lenguaje natural.
 
 **Ejemplos de interacción:**
-*   *"Dime las noticias más actuales sobre el medioambiente."*
-*   *"¿Qué ha pasado con el FC Barcelona?"*
+*   *"Dime las noticias más actuales sobre el medioambiente."* (Búsqueda temporal)
+*   *"¿Qué ha pasado con el FC Barcelona?"* (Búsqueda semántica)
 
 ---
 
 ## 6. Detención del Sistema
 
-Para detener la aplicación de manera segura:
-
-1.  Vaya a la terminal donde se está ejecutando el contenedor.
-2.  Presione la combinación de teclas `Ctrl + C`.
-
-Si el contenedor se está ejecutando en segundo plano o no responde, puede forzar su detención:
+Para detener la aplicación y eliminar los recursos asociados (contenedores y redes) de manera limpia, ejecute:
 
 ```bash
-# 1. Listar contenedores activos para obtener el ID
-sudo docker ps
-
-# 2. Detener el contenedor (sustituya ID_CONTENEDOR por el código alfanumérico)
-sudo docker stop ID_CONTENEDOR
+sudo docker compose down -v
 ```
+
+**Nota:** El parámetro `-v` asegura que se eliminen los volúmenes temporales si los hubiera, aunque los datos persistentes en `chats_data` y `debug_logs` se mantendrán en su disco local.
 
 ---
 
@@ -175,11 +169,13 @@ sudo docker stop ID_CONTENEDOR
 A continuación se detalla la organización de los archivos para referencia técnica:
 
 *   **src/**: Contiene el código fuente de la aplicación.
-    *   `app.py`: Controla la interfaz gráfica y la interacción con el usuario.
-    *   `logic.py`: Contiene la lógica de negocio, conexión a bases de datos y procesamiento de lenguaje natural.
+    *   `app.py`: Controla la interfaz gráfica (Frontend).
+    *   `logic.py`: Contiene la lógica de negocio, conexión a Elastic, NLP y gestión de logs (Backend).
 *   **docs/**: Documentación técnica y legal del proyecto.
-*   **chats_data/**: Directorio donde se almacena el historial de conversaciones (formato JSON).
-*   **Dockerfile**: Archivo de configuración para la creación del contenedor Docker.
+*   **chats_data/**: Directorio persistente para el historial de conversaciones.
+*   **debug_logs/**: Directorio persistente para los registros técnicos de depuración.
+*   **docker-compose.yml**: Definición del servicio, redes y volúmenes.
+*   **Dockerfile**: Archivo de configuración para la creación de la imagen.
 *   **requirements.txt**: Lista de dependencias y librerías Python necesarias.
 *   **.env**: Archivo de configuración de variables de entorno (Credenciales).
 *   **.gitignore**: Configuración para excluir archivos sensibles del control de versiones.
