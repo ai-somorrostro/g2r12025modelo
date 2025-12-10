@@ -1,24 +1,47 @@
-# ⚖️ Informe de Cumplimiento Ético y Legal (RA6)
+# Informe de Cumplimiento Ético, Legal y Normativo
 
-## 1. Security by Design (Seguridad desde el Diseño)
-Para cumplir con el criterio de protección frente a ataques y errores, se han implementado las siguientes medidas:
-*   **Gestión de Secretos:** Ninguna credencial (API Keys, contraseñas de Elastic) está hardcodeada en el código. Se utilizan variables de entorno (`.env`) que no se suben al repositorio.
-*   **Aislamiento de Red:** El chatbot se conecta a Elasticsearch mediante HTTPS (o HTTP interno controlado), asegurando que los datos no viajan por redes públicas innecesarias.
-*   **Cortafuegos Semántico:** El System Prompt actúa como barrera de seguridad, impidiendo que el chatbot responda a preguntas fuera de ámbito (ej. matemáticas o temas sensibles no indexados).
+Este documento justifica la alineación del proyecto **NewsAI Studio** con los marcos regulatorios vigentes, demostrando un enfoque integral de privacidad, seguridad y ética desde la fase de diseño hasta la implementación.
 
-## 2. Privacy by Design (Privacidad)
-*   **Minimización de Datos:** Solo se envían al LLM los fragmentos de texto estrictamente necesarios para responder a la pregunta del usuario. La base de datos completa permanece en la infraestructura local (Elasticsearch), cumpliendo con la soberanía del dato.
-*   **Anonimización:** El sistema no almacena datos personales de los usuarios que realizan las consultas en ninguna base de datos persistente del chatbot.
+## 1. Análisis de Riesgos y Seguridad (Security by Design)
+Se ha implementado un plan de seguridad basado en la defensa en profundidad para mitigar riesgos técnicos y operativos:
 
-## 3. Sesgos y Equidad
-Se ha instruido al modelo mediante el System Prompt para mantener un **tono neutral y periodístico**.
-*   **Mitigación de Sesgos:** En caso de noticias donde el género no sea relevante o especificado, el modelo está instruido para usar lenguaje inclusivo o neutro, evitando asunciones estereotipadas.
+*   **Protección contra Inyecciones (Prompt Injection):** Se utiliza un **Cortafuegos Semántico** en el *System Prompt*. Las instrucciones de seguridad ("PROHIBICIONES STRICTAS") tienen prioridad jerárquica sobre el input del usuario. Además, el módulo de NLP (`analyze_intent`) sanea la entrada antes de procesarla.
+*   **Gestión de Secretos:** Política de "Cero Confianza". Ninguna credencial se almacena en el código. Se utilizan variables de entorno (`.env`) inyectadas en tiempo de ejecución.
+*   **Cifrado en Tránsito:** La comunicación con la base de datos Elasticsearch fuerza el uso de **TLS/SSL** (`verify_ssl=True`) mediante certificados CA, protegiendo los datos frente a ataques *Man-in-the-Middle*.
 
-## 4. Licencias de Uso
-| Componente | Licencia | Uso en el Proyecto |
+## 2. Privacidad desde el Diseño (Privacy by Design)
+Se demuestra un enfoque integral de privacidad que abarca todas las etapas del desarrollo, cumpliendo con el RGPD:
+
+### 2.1. Arquitectura Privada (Diseño)
+*   **Soberanía del Dato:** A diferencia de soluciones SaaS, la base de datos de noticias (Elasticsearch) y el historial de chats residen en infraestructura local controlada (volúmenes Docker), garantizando que la información no sale del perímetro de la organización.
+*   **Vectorización Interna:** Se utiliza una API de embeddings propia (`/api/embed`), evitando enviar los textos de búsqueda a proveedores públicos de terceros.
+
+### 2.2. Minimización y Transparencia (Implementación)
+*   **Minimización:** El sistema no recolecta datos personales (PII) de los usuarios. Solo se procesa la consulta necesaria para la búsqueda.
+*   **Transparencia:** El usuario es informado mediante un aviso legal visible de que interactúa con una IA y de que las respuestas se basan en noticias indexadas.
+
+### 2.3. Derechos del Usuario (Operación)
+*   **Derecho de Supresión (Art. 17 RGPD):** Se han programado funcionalidades específicas ("Eliminar Chat", "Limpiar Logs") que permiten la eliminación física y permanente de los datos de sesión, garantizando el derecho al olvido.
+
+## 3. Identificación y Corrección de Sesgos
+Se han identificado riesgos de sesgo inherentes a los LLM y se han aplicado correcciones activas:
+
+*   **Identificación del Riesgo:** Los modelos de lenguaje tienden a asumir géneros basados en estereotipos profesionales (ej: asumir que "el médico" es hombre o "la enfermera" es mujer) debido a sus datos de entrenamiento.
+*   **Estrategia de Corrección:** Se ha implementado una instrucción de **Neutralidad de Género** en el *System Prompt*. El modelo está obligado a utilizar lenguaje inclusivo o neutro cuando la noticia original no especifique el género de los protagonistas.
+*   **Neutralidad Informativa:** Se fuerza al modelo a mantener un tono "periodístico y analítico", eliminando adjetivos valorativos o emocionales que puedan introducir sesgos de opinión no presentes en la fuente.
+
+## 4. Licencias de Uso y Propiedad Intelectual
+Se describen y justifican detalladamente las licencias de todos los componentes para asegurar la compatibilidad legal del proyecto.
+
+### 4.1. Licencias de Componentes de Terceros
+| Componente | Licencia | Justificación de Compatibilidad |
 | :--- | :--- | :--- |
-| **Streamlit** | Apache 2.0 | Interfaz de Usuario (Open Source) |
-| **LangChain** | MIT | Orquestación lógica (Open Source) |
-| **Elasticsearch** | Elastic License 2.0 | Motor de Búsqueda |
-| **GPT-4o-mini** | Propietaria (OpenAI) | Generación de texto (Uso comercial permitido vía API) |
-| **Código Propio** | MIT | Se libera el código del chatbot bajo licencia MIT. |
+| **Streamlit** | Apache 2.0 | Licencia permisiva que permite el uso comercial, modificación y distribución del software sin obligar a liberar el código derivado. Ideal para interfaces empresariales. |
+| **LangChain** | MIT | Licencia altamente permisiva compatible con cualquier tipo de proyecto (propietario o libre). Permite la integración sin restricciones virales. |
+| **Elasticsearch** | Elastic License 2.0 | Permite el uso gratuito y modificación del software para uso interno. Restringe únicamente ofrecerlo como un servicio gestionado (SaaS) a terceros, lo cual cumple con el uso de este proyecto. |
+| **GPT-4o-mini** | Propietaria (OpenAI) | El uso se rige por los Términos de Servicio de la API. El proyecto cumple con las políticas de uso aceptable (no generación de contenido ilegal o dañino). |
+
+### 4.2. Licencia del Proyecto
+*   **Código Fuente Propio:** Los scripts desarrollados (`src/app.py`, `src/logic.py`) se liberan bajo licencia **MIT**.
+    *   *Motivo:* Fomentar la colaboración académica y permitir que otros estudiantes o desarrolladores reutilicen la arquitectura RAG sin restricciones legales complejas.
+*   **Derechos de Contenido:** El sistema actúa como un índice de búsqueda. Se reconoce el derecho de autor de las noticias originales mediante la cita obligatoria de la **Fuente/URL** en cada respuesta, amparándose en el derecho de cita para fines informativos.
