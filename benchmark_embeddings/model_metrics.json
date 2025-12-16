@@ -1,0 +1,26 @@
+{
+  "all-mpnet-base-v2": {
+    "mean_score": 1.6139154682926828,
+    "load_time_sec": 0.3297543525695801,
+    "ram_used_mb": 2243.7109375,
+    "batch_encoding_100_sec": 14.743293046951294
+  },
+  "jhgan/ko-sroberta-multitask": {
+    "mean_score": 1.070621836585366,
+    "load_time_sec": 0.10855436325073242,
+    "ram_used_mb": 2243.7109375,
+    "batch_encoding_100_sec": 7.9657323360443115
+  },
+  "paraphrase-multilingual-mpnet-base-v2": {
+    "mean_score": 1.3888871351219512,
+    "load_time_sec": 0.09747552871704102,
+    "ram_used_mb": 2243.7109375,
+    "batch_encoding_100_sec": 5.93332052230835
+  },
+  "multilingual-e5-base": {
+    "mean_score": 1.080911232195122,
+    "load_time_sec": 0.11872243881225586,
+    "ram_used_mb": 2243.7109375,
+    "batch_encoding_100_sec": 6.23285436630249
+  }
+}

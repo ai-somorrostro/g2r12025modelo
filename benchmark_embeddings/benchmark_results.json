@@ -2,6 +2,11 @@
   "all-mpnet-base-v2": {
     "Noticias sobre política": [
       {
+        "_id": "SNt2JJsBP5yYEGSn0gdq",
+        "_score": 1.6357057,
+        "title": "El año que Bildu perdió la iniciativa política"
+      },
+      {
         "_id": "AGyWF5sBawBZBRiWSwty",
         "_score": 1.6284791,
         "title": "Última hora de la actualidad política, en directo | Feijóo acusa al PSOE de “encubrir a una manada de machistas y corruptos”"
@@ -20,11 +25,6 @@
         "_id": "LRCI85oBL6BCT6PtqIqu",
         "_score": 1.6127843,
         "title": "Última hora de la actualidad política, en directo | Sánchez reivindica la sanidad pública frente a las “privatizaciones de las administraciones del PP”"
-      },
-      {
-        "_id": "XpfZDJsBP5yYEGSnYDRl",
-        "_score": 1.6082158,
-        "title": "Pase vip en Moncloa y proclamas de \"derechos y libertades\" junto al presidente, las joyas de Tomé antes de caer por acoso sexual"
       }
     ],
     "Fútbol hoy": [
@@ -49,9 +49,9 @@
         "title": "Duelo de necesidades en Anoeta: Girona y Real Sociedad buscan una victoria para alejarse de la zona baja de la tabla"
       },
       {
-        "_id": "7ma6E5sBawBZBRiWdxqS",
-        "_score": 1.4574761,
-        "title": "El Barça, el club español más afortunado del sorteo de la Youth League"
+        "_id": "0lIKJ5sBEylyhe5XiLb5",
+        "_score": 1.4615477,
+        "title": "Ya hay propuesta de fecha para jugar el aplazado Levante-Villarreal"
       }
     ],
     "Clima en Madrid": [
@@ -66,6 +66,11 @@
         "title": "El Athletic explota el mal de visitante del Atlético"
       },
       {
+        "_id": "43vjIZsBawBZBRiW46Qk",
+        "_score": 1.691198,
+        "title": "La Copa del Rey, una herida abierta en el Atlético desde hace más de una década"
+      },
+      {
         "_id": "TcxQH5sBP5yYEGSnajh9",
         "_score": 1.6810031,
         "title": "Izan Almansa bate su récord de anotación y valoración con el Real Madrid"
@@ -74,11 +79,6 @@
         "_id": "GGRwEpsBawBZBRiWwBct",
         "_score": 1.6798346,
         "title": "Mendizorroza se llenará por primera vez en la temporada con la visita del Real Madrid"
-      },
-      {
-        "_id": "ClvXDJsBawBZBRiWXnwG",
-        "_score": 1.6786604,
-        "title": "Un fogonazo del Real Madrid ante el Manchester City que no despeja la niebla"
       }
     ],
     "Tecnología e innovación": [
@@ -164,29 +164,29 @@
     ],
     "Quien es Pedro Sanchez": [
       {
+        "_id": "2dctI5sBP5yYEGSnfUUp",
+        "_score": 1.5020217,
+        "title": "Reguilón jugará con Leo Messi"
+      },
+      {
+        "_id": "83vjIZsBawBZBRiW46Qk",
+        "_score": 1.4964246,
+        "title": "\"Arbeloa es el niño mimado de Florentino, dejó tirados a muchos compañeros por reírle las gracias y hacerle la pelota a ese entrenador\""
+      },
+      {
+        "_id": "P5gKJ5sBbsp0CIKwIRrn",
+        "_score": 1.4959884,
+        "title": "\"Simeone es un referente total\""
+      },
+      {
+        "_id": "p9t1JJsBP5yYEGSnBgGI",
+        "_score": 1.4927683,
+        "title": "Sánchez nombrará otra mujer como portavoz del Gobierno tras la salida de Pilar Alegría"
+      },
+      {
         "_id": "9HFyG5sBawBZBRiWoPp0",
         "_score": 1.4919187,
         "title": "Robe: retrato íntimo del poeta de lo marginal que se transformó en filósofo del alma"
-      },
-      {
-        "_id": "k7JMFpsBP5yYEGSnQTMU",
-        "_score": 1.4914056,
-        "title": "Robe me gustaba más a mí"
-      },
-      {
-        "_id": "h2DcD5sBawBZBRiW-x-Q",
-        "_score": 1.4902048,
-        "title": "Portada de MD Bizkaia-Araba de hoy viernes"
-      },
-      {
-        "_id": "1G0_8poBPclaZKDfAXf5",
-        "_score": 1.4856058,
-        "title": "El despunte de Vox en el pueblo con más migrantes de Extremadura: “No podemos seguir manteniendo a África entera”"
-      },
-      {
-        "_id": "pC8g_5oBL6BCT6PteZqX",
-        "_score": 1.4809613,
-        "title": "El PP citará a Salazar en la comisión del 'caso Koldo' por su participación en los \"chanchullos\" de \"la banda del Peugeot\""
       }
     ],
     "Últimas noticias de economía": [
@@ -238,9 +238,9 @@
         "title": "Así queda la clasificación tras el triunfo del Real Madrid ante el Alavés"
       },
       {
-        "_id": "3bGRBZsBDfrzuDgnREnw",
-        "_score": 1.7219524,
-        "title": "Barça -Eintracht de Fráncfurt"
+        "_id": "vugJJ5sBTCbcFwz-zOyk",
+        "_score": 1.7253833,
+        "title": "Deportivo Guadalajara-Barça: una Copa para reivindicarse"
       }
     ],
     "En que posiciones juega Eric Garcia": [
@@ -255,6 +255,11 @@
         "title": "El Huesca resucita a costa de la Cultural Leonesa"
       },
       {
+        "_id": "83vjIZsBawBZBRiW46Qk",
+        "_score": 1.622226,
+        "title": "\"Arbeloa es el niño mimado de Florentino, dejó tirados a muchos compañeros por reírle las gracias y hacerle la pelota a ese entrenador\""
+      },
+      {
         "_id": "BGa5E5sBawBZBRiWaxk4",
         "_score": 1.6184003,
         "title": "\"Es la mejor semana de entrenamiento de la temporada\""
@@ -263,11 +268,6 @@
         "_id": "1G0_8poBPclaZKDfAXf5",
         "_score": 1.6091807,
         "title": "El despunte de Vox en el pueblo con más migrantes de Extremadura: “No podemos seguir manteniendo a África entera”"
-      },
-      {
-        "_id": "QZfZDJsBP5yYEGSnYDRl",
-        "_score": 1.6074326,
-        "title": "Aperribay, defendiendo los datos económicos: \"A nosotros no nos han regalado ningún campo\""
       }
     ],
     "Noticias sobre el cambio climático": [
@@ -277,27 +277,32 @@
         "title": "Llega el cambio del tiempo a Barcelona: el Meteocat anuncia hasta tres días seguidos con lluvias a partir de esta fecha"
       },
       {
-        "_id": "LGRvEpsBawBZBRiWERRU",
-        "_score": 1.6376859,
-        "title": "Barcelona, preparada para la llegada del frío y las lluvias: el Meteocat ya pone fecha al cambio del tiempo en la ciudad"
+        "_id": "uegJJ5sBTCbcFwz-zOyk",
+        "_score": 1.6908082,
+        "title": "España despide un 2025 “extremadamente cálido”: los últimos cuatro años son los más calurosos registrados hasta ahora en el país"
       },
       {
-        "_id": "djUf6ZoBY_uHLrwTlutN",
-        "_score": 1.6350018,
-        "title": "La Aemet pone en alerta naranja por mala mar y fuertes vientos a Galicia, Asturias, Cantabria y País Vasco"
+        "_id": "MHviIZsBawBZBRiWFaJy",
+        "_score": 1.6659229,
+        "title": "Advertencia del Meteocat por lluvias intensas: estas serán las zonas más afectadas"
       },
       {
-        "_id": "LTY-6ZoBY_uHLrwTrQy9",
-        "_score": 1.5879806,
-        "title": "Giro radical del tiempo en Álava: sol y máximas de 18 grados para el puente de diciembre"
+        "_id": "0tcsI5sBP5yYEGSn20Pa",
+        "_score": 1.6637222,
+        "title": "Construir a cotas más altas, naturalización de cauces... Euskadi se prepara para la subida del nivel del mar"
       },
       {
-        "_id": "nS8g_5oBL6BCT6PteZqX",
-        "_score": 1.5854367,
-        "title": "Tras unos días de sol y tiempo estable en Bizkaia, esta semana habrá que sacar el paraguas de nuevo"
+        "_id": "7HvkIZsBawBZBRiWOKVY",
+        "_score": 1.6500752,
+        "title": "La Aemet prevé un día negro en Bilbao para Santo Tomás"
       }
     ],
     "Últimas noticias internacionales": [
+      {
+        "_id": "2tcsI5sBP5yYEGSn20Pa",
+        "_score": 1.5713025,
+        "title": "Muere a los 79 años el crítico literario de Territorios Jorge Ernesto Ayala-Dip"
+      },
       {
         "_id": "ApfZDJsBP5yYEGSnYDRl",
         "_score": 1.5679188,
@@ -309,19 +314,14 @@
         "title": "SEA premia a José Luis Bengoechea en el cierre de Jolben y a Julio Sampedro, de Forza Herramientas"
       },
       {
+        "_id": "yXvjIZsBawBZBRiWGqMK",
+        "_score": 1.5538731,
+        "title": "Leire Díez dio negocio en Correos a un socio del ex presidente de la Sepi y firmó ella misma los acuerdos"
+      },
+      {
         "_id": "Y2yVF5sBawBZBRiW5wrG",
         "_score": 1.5522658,
         "title": "La UCO atribuye a la 'fontanera' Leire Díez y a Antxon Alonso gestiones para conseguir el rescate de una compañía vasca de tubos de acero a cambio de comisiones"
-      },
-      {
-        "_id": "HWRwEpsBawBZBRiWwBct",
-        "_score": 1.5518357,
-        "title": "Pradales inaugurará 'Foro Capital', un nuevo espacio de «diálogo, encuentro e ideas con raíz vitoriana y visión alavesa»"
-      },
-      {
-        "_id": "KjUf6ZoBY_uHLrwT3OzK",
-        "_score": 1.5469003,
-        "title": "Arrestan en Murcia a una mujer con 14 órdenes de detención por delitos en Vitoria y otras 9 localidades"
       }
     ],
     "Eventos deportivos esta semana": [
@@ -358,27 +358,42 @@
         "title": "Mejor de tres en tres y otras fórmulas 'mágicas' para cumplir tus propósitos saludables"
       },
       {
+        "_id": "WX0rI5sBawBZBRiWnJy9",
+        "_score": 1.6414146,
+        "title": "Sanidad llega a un preacuerdo con los sindicatos para suspender la huelga por el estatuto marco"
+      },
+      {
         "_id": "76MlEZsBP5yYEGSnwoG5",
         "_score": 1.6409078,
         "title": "“Robe nos da permiso para sentir en una sociedad que censura la tristeza”: cuatro psicólogos analizan el éxito de sus letras"
       },
       {
+        "_id": "Y9csI5sBP5yYEGSnCkHR",
+        "_score": 1.6089417,
+        "title": "El preacuerdo de Sanidad y los sindicatos de clase para el Estatuto Marco no frena las protestas de enero de los sanitarios"
+      },
+      {
         "_id": "ejUf6ZoBY_uHLrwTlutN",
         "_score": 1.6073226,
         "title": "Djaló: «Eché en falta más apoyo de Valverde... No estuve bien psicológicamente»"
-      },
-      {
-        "_id": "MGRvEpsBawBZBRiWERRU",
-        "_score": 1.6040826,
-        "title": "David López, psiquiatra, sobre la Lotería de Navidad: \"El 85% de las personas que compran un décimo van a perder ese dinero\""
-      },
-      {
-        "_id": "oV6UDpsBawBZBRiWHiIj",
-        "_score": 1.6000402,
-        "title": "Los médicos alaveses en huelga: «El cansancio que arrastramos pone en riesgo a los pacientes»"
       }
     ],
     "Vacunas COVID-19 últimas noticias": [
+      {
+        "_id": "9VIKJ5sBEylyhe5XiLb5",
+        "_score": 1.6381383,
+        "title": "Los contagios de gripe aumentan un 41% la última semana a las puertas de la Navidad"
+      },
+      {
+        "_id": "BH92JJsBawBZBRiWbplj",
+        "_score": 1.631046,
+        "title": "Los contagios de gripe aumentan un 41% la última semana a las puertas de la Navidad"
+      },
+      {
+        "_id": "wXvjIZsBawBZBRiWGqMK",
+        "_score": 1.560917,
+        "title": "Madrid reconoce 20 focos de gripe aviar desde septiembre que han afectado a gallinas, ocas o cigüeñas"
+      },
       {
         "_id": "6DUf6ZoBY_uHLrwT3OvK",
         "_score": 1.5525261,
@@ -388,21 +403,6 @@
         "_id": "ITY-6ZoBY_uHLrwTrQy9",
         "_score": 1.5351478,
         "title": "El Govern afirma que la gran mayoría de los 50 jabalíes hallados muertos han dado negativo de peste porcina"
-      },
-      {
-        "_id": "vS8g_5oBL6BCT6PteZqX",
-        "_score": 1.5293177,
-        "title": "Seis expertos en bioseguridad investigarán si el virus de la peste porcina escapó de un laboratorio"
-      },
-      {
-        "_id": "kV6UDpsBawBZBRiWHiIj",
-        "_score": 1.5268211,
-        "title": "Mercabarna prevé que la distribución de alimentos suba hasta un 8% en Navidad, con un impacto casi nulo de la peste porcina"
-      },
-      {
-        "_id": "1V6TDpsBawBZBRiW8CF5",
-        "_score": 1.5200272,
-        "title": "Una “puntualización” en ‘La Revuelta’ sobre el VIH: “El peligro es tenerlo y no saber que lo tienes”"
       }
     ],
     "Noticias sobre inteligencia artificial": [
@@ -410,6 +410,11 @@
         "_id": "-VvXDJsBawBZBRiWXnsG",
         "_score": 1.6521931,
         "title": "¿Puede ser la inteligencia artificial feminista?"
+      },
+      {
+        "_id": "7NctI5sBP5yYEGSnfUUp",
+        "_score": 1.5391725,
+        "title": "El Ayuntamiento de Vitoria oferta 1.250 plazas en cursos de formación para el empleo de 2026"
       },
       {
         "_id": "fOs96ZoBWNoH_2TAKnGz",
@@ -425,14 +430,14 @@
         "_id": "F8-YIJsBP5yYEGSn6fuh",
         "_score": 1.4957825,
         "title": "La multinacional vasca Teknei creará mil puestos de trabajo en Euskadi con dos nuevos proyectos"
-      },
-      {
-        "_id": "vVvXDJsBawBZBRiWXnsG",
-        "_score": 1.4780585,
-        "title": "Estas son las ocupaciones con los salarios más elevados de Bilbao"
       }
     ],
     "Últimas tendencias en criptomonedas": [
+      {
+        "_id": "8FIKJ5sBEylyhe5XiLb5",
+        "_score": 1.5651325,
+        "title": "Triple contratiempo en el Valencia"
+      },
       {
         "_id": "oWDdD5sBawBZBRiWcyCx",
         "_score": 1.5596557,
@@ -449,14 +454,9 @@
         "title": "Detenido en Gernika por encerrar y golpear a su expareja tras quebrantar una orden de alejamiento"
       },
       {
-        "_id": "9jUf6ZoBY_uHLrwT3OvK",
-        "_score": 1.4982892,
-        "title": "Ya hay parte médico sobre Dani Olmo"
-      },
-      {
-        "_id": "3FvXDJsBawBZBRiWHXr3",
-        "_score": 1.4732094,
-        "title": "Otro niño sufrió complicaciones tras ser sedado por el anestesista de Alzira acusado de homicidio"
+        "_id": "3NctI5sBP5yYEGSnfUUp",
+        "_score": 1.5233933,
+        "title": "Kiko Hernández, agredido en Melilla: \"Te dan una paliza y te mandan al hospital. Así no molestas\""
       }
     ],
     "Resultados de la lotería nacional": [
@@ -476,14 +476,14 @@
         "title": "Lotería Nacional: sorteo del jueves 11 de diciembre"
       },
       {
-        "_id": "fTUf6ZoBY_uHLrwTlutN",
-        "_score": 1.6614814,
-        "title": "El Euromillones del martes sonríe a un nuevo millonario en España y deja una alegría en Bizkaia: resultados del 2 de diciembre"
+        "_id": "uHvkIZsBawBZBRiWOKVY",
+        "_score": 1.691288,
+        "title": "Borja Muñiz, el 'presidente' de los loteros: \"Hace años con el premio de la Lotería de Navidad la gente dejaba de trabajar, eso ahora es imposible\""
       },
       {
-        "_id": "fxcd9poBL6BCT6PtP0jy",
-        "_score": 1.6363391,
-        "title": "La Primitiva sonríe a una pequeña localidad a una hora de Bilbao: comprobar resultados de este sábado 6 de diciembre"
+        "_id": "zNctI5sBP5yYEGSnfUUp",
+        "_score": 1.6889951,
+        "title": "El movimiento de tu banco si ganas algún premio en la Lotería de Navidad 2025: una estrategia muy habitual"
       }
     ],
     "Noticias sobre educación en España": [
@@ -498,19 +498,19 @@
         "title": "Cajicá, el pueblo que se volvió modelo de la educación pública en Colombia"
       },
       {
+        "_id": "zegJJ5sBTCbcFwz-zOyk",
+        "_score": 1.5486848,
+        "title": "Pilar Alegría se despide del Gobierno para ser la candidata del PSOE en Aragón: «Vuelvo a mi casa»"
+      },
+      {
         "_id": "GDUf6ZoBY_uHLrwT3OzK",
         "_score": 1.5401152,
         "title": "Erika, peruana viviendo en España: \"Si comparo un colegio público español con un colegio privado de Perú, están igual. Aquí no pago ninguna mensualidad ni nada por el estilo\""
       },
       {
-        "_id": "TH_V_ZoBPclaZKDfdAtK",
-        "_score": 1.5311468,
-        "title": "La Asociación de Abogados del Estado dice que la firma de pliegos de Begoña Gómez en la UCM no exige titulación específica"
-      },
-      {
-        "_id": "m2DdD5sBawBZBRiWcyCx",
-        "_score": 1.5263193,
-        "title": "Euskadi necesita un plan para promover más empleo de calidad"
+        "_id": "8XvjIZsBawBZBRiW46Qk",
+        "_score": 1.532486,
+        "title": "Edgar Sánchez, agente inmobiliario: \"Hace dos años los pisos se alquilaban por 650 o 700 euros y hace relativamente poco los hemos alquilado por 900\""
       }
     ],
     "Pronóstico del tiempo para Barcelona": [
@@ -535,9 +535,9 @@
         "title": "'Barça Team': Remontada azulgrana y día clave para Xabi Alonso"
       },
       {
-        "_id": "qnMc9poBPclaZKDfAE4B",
-        "_score": 1.7112222,
-        "title": "El Athletic explota el mal de visitante del Atlético"
+        "_id": "vugJJ5sBTCbcFwz-zOyk",
+        "_score": 1.7118049,
+        "title": "Deportivo Guadalajara-Barça: una Copa para reivindicarse"
       }
     ],
     "Noticias de cine y estrenos": [
@@ -545,6 +545,16 @@
         "_id": "4mRwEpsBawBZBRiWsxbX",
         "_score": 1.6198342,
         "title": "Los Reyes felicitan la Navidad con una foto familiar y Juan Carlos I y doña Sofía, con una imagen de sus perros"
+      },
+      {
+        "_id": "2tcsI5sBP5yYEGSn20Pa",
+        "_score": 1.6068778,
+        "title": "Muere a los 79 años el crítico literario de Territorios Jorge Ernesto Ayala-Dip"
+      },
+      {
+        "_id": "0dcsI5sBP5yYEGSn20Pa",
+        "_score": 1.5998244,
+        "title": "Piden investigar los emails de la exedil de Santurtzi apartada por la presunta filtración del examen de Policía"
       },
       {
         "_id": "gGDcD5sBawBZBRiW-x-Q",
@@ -555,16 +565,6 @@
         "_id": "Wa4DFZsBP5yYEGSnRYBM",
         "_score": 1.5829422,
         "title": "El encanto de Bizkaia en 12 fotos"
-      },
-      {
-        "_id": "1W0_8poBPclaZKDfC3ck",
-        "_score": 1.5755241,
-        "title": "Habla la edil de Torremolinos del PSOE acosada: “Fui al juzgado porque la situación era insoportable”"
-      },
-      {
-        "_id": "HCiM_JoBL6BCT6PtvZE-",
-        "_score": 1.5751293,
-        "title": "Valeria Castro, cantante: “Ni siquiera mi madre se había dado cuenta de que estaba tan mal”"
       }
     ],
     "Actualidad sobre la UEFA Champions League": [
@@ -633,6 +633,11 @@
         "title": "Las claves tácticas del Betis-Barça, por Lobo Carrasco"
       },
       {
+        "_id": "71IKJ5sBEylyhe5XiLb5",
+        "_score": 1.6031245,
+        "title": "El Valencia ataca a Javi Poves por llamar \"subnormal\" a Hugo Duro: \"El problema de ser plano está en la mente\""
+      },
+      {
         "_id": "7TUf6ZoBY_uHLrwT3OvK",
         "_score": 1.6026818,
         "title": "Trabajo abre la puerta a usar los ERTE de fuerza mayor en empresas que se vean afectadas por la peste porcina"
@@ -641,14 +646,14 @@
         "_id": "MTY-6ZoBY_uHLrwTrQy9",
         "_score": 1.5979326,
         "title": "Los pueblos que rodean Júndiz rechazan la llegada de LEA y la planta de compostaje"
-      },
-      {
-        "_id": "EV6SDpsBawBZBRiWySCv",
-        "_score": 1.5968013,
-        "title": "Míchel estalla: “Livakovic quiere jugar para el Mundial, no para el Girona”"
       }
     ],
     "Noticias sobre energías renovables": [
+      {
+        "_id": "2H92JJsBawBZBRiWU5g8",
+        "_score": 1.6152369,
+        "title": "Asteklima premia la iniciativa 'Energia Eguna' de Santa Ana"
+      },
       {
         "_id": "87GRBZsBDfrzuDgnREnw",
         "_score": 1.5804391,
@@ -668,11 +673,6 @@
         "_id": "_WyWF5sBawBZBRiWSwpy",
         "_score": 1.5657713,
         "title": "La avenida del Ferrocarril de Bilbao estrena nuevo parque"
-      },
-      {
-        "_id": "ees96ZoBWNoH_2TAKnGz",
-        "_score": 1.5491614,
-        "title": "Jauregi: «Nos comeremos las uvas con el acuerdo de Ayesa cerrado»"
       }
     ],
     "Actualidad sobre elecciones locales": [
@@ -704,29 +704,29 @@
     ],
     "Últimas noticias sobre transporte público": [
       {
-        "_id": "g5_cD5sBP5yYEGSnvNtA",
-        "_score": 1.5833216,
-        "title": "La UCO concluye que la trama del fuel gastó un millón de euros en «comprar la voluntad» de Ábalos"
+        "_id": "v-gJJ5sBTCbcFwz-zOyk",
+        "_score": 1.7065239,
+        "title": "El Govern acuerda con los comunes mantener la bonificación del 50% en el transporte público en Cataluña"
       },
       {
-        "_id": "_l6TDpsBawBZBRiW8CF5",
-        "_score": 1.5723342,
-        "title": "Taxistas denuncian que Getxo incumple la ley al no dar servicio a discapacitados"
+        "_id": "5dctI5sBP5yYEGSnfUUp",
+        "_score": 1.6651794,
+        "title": "El consejo de Tuvisa abordará este jueves la reprobación y cese de la gerente"
       },
       {
-        "_id": "IGa6E5sBawBZBRiWdxuS",
-        "_score": 1.5591382,
-        "title": "Barcelona saca el látigo: a partir de este día, multará  hasta con 750 euros a los vecinos que hagan esto en lugares públicos o monumentos"
+        "_id": "XH0rI5sBawBZBRiWnJy9",
+        "_score": 1.6383816,
+        "title": "Sánchez anuncia un abono transporte único de 60 euros al mes para viajar por todo el país"
       },
       {
-        "_id": "5V6SDpsBawBZBRiWBB7S",
-        "_score": 1.5559986,
-        "title": "La UCO concluye que la trama de hidrocarburos destinó “un millón de euros a comprar la voluntad” de Ábalos y su Ministerio"
+        "_id": "AH92JJsBawBZBRiWbplj",
+        "_score": 1.6083,
+        "title": "Sánchez anuncia una 'tarifa plana' de transporte público de difícil aplicación en Euskadi"
       },
       {
-        "_id": "L1xIDZsBawBZBRiW7yTr",
-        "_score": 1.5545554,
-        "title": "La Policía Nacional registra la aerolínea española Plus Ultra"
+        "_id": "z3vkIZsBawBZBRiWOKVY",
+        "_score": 1.5884851,
+        "title": "Los camioneros amenazan con colapsar de nuevo las carreteras en Navidad"
       }
     ],
     "Consejos de alimentación saludable": [
@@ -741,6 +741,11 @@
         "title": "José Abellán, cardiólogo y hemodinamista: \"Estoy seguro de que el peor mal de la alimentación occidental son los alimentos ultraprocesados\""
       },
       {
+        "_id": "RpgKJ5sBbsp0CIKwIRrn",
+        "_score": 1.5635551,
+        "title": "¿Cómo elabora Nutrisport sus complementos alimenticios para running y otros deportes? Visitamos su planta de producción cerca de Barcelona"
+      },
+      {
         "_id": "-phKDZsBP5yYEGSntnR_",
         "_score": 1.5355766,
         "title": "El nuevo gastrobar de Vitoria que llega con una propuesta «fresca, casera y con identidad»"
@@ -749,11 +754,6 @@
         "_id": "Xq4DFZsBP5yYEGSnRYBM",
         "_score": 1.5307618,
         "title": "¿Pedir un crédito para pasar las Navidades? Ojo con las opciones que te planteas"
-      },
-      {
-        "_id": "BntD-5oBPclaZKDfTiD0",
-        "_score": 1.5265505,
-        "title": "El restaurante de Bilbao donde puedes comer rico y ser solidario"
       }
     ],
     "Noticias sobre inflación en Europa": [
@@ -778,9 +778,9 @@
         "title": "La UE avala la directiva que contempla la creación de centros de detención de migrantes"
       },
       {
-        "_id": "ny8g_5oBL6BCT6PteZqX",
-        "_score": 1.511607,
-        "title": "España se queda sola también en su política de inmigración: los 27 aprueban los 'centros Meloni' de deportación fuera de la UE"
+        "_id": "2H92JJsBawBZBRiWU5g8",
+        "_score": 1.5170442,
+        "title": "Asteklima premia la iniciativa 'Energia Eguna' de Santa Ana"
       }
     ],
     "Eventos culturales en Madrid": [
@@ -788,6 +788,11 @@
         "_id": "n7JMFpsBP5yYEGSnQTMU",
         "_score": 1.6865516,
         "title": "Bilbao está lleno de huellas de García Ergüin y se pueden ver gratis en iglesias, hoteles, bares, portales..."
+      },
+      {
+        "_id": "89ctI5sBP5yYEGSnfUUp",
+        "_score": 1.6814519,
+        "title": "India Martínez: \"En el momento en el que Will Smith se me acercó al oído y empezó a decirme que quería cantar conmigo... Me quedé loca\""
       },
       {
         "_id": "d6dwEpsBP5yYEGSnxie4",
@@ -803,11 +808,6 @@
         "_id": "dus96ZoBWNoH_2TAKnGz",
         "_score": 1.6250398,
         "title": "El mercado navideño a una hora de Madrid que no te puedes perder este puente: uno de los pueblos más bonitos se llenará de artesanía, espectáculos y música"
-      },
-      {
-        "_id": "NHn4-ZoBPclaZKDf2igJ",
-        "_score": 1.6159091,
-        "title": "Las discotecas pinchan en Bizkaia: menos locales, descenso en la recaudación y con el sábado como día 'estrella'"
       }
     ],
     "Últimas noticias sobre economía digital": [
@@ -827,14 +827,14 @@
         "title": "El consorcio vasco para comprar Ayesa gana la puja frente a los grandes fondos internacionales"
       },
       {
+        "_id": "0dcsI5sBP5yYEGSn20Pa",
+        "_score": 1.5695224,
+        "title": "Piden investigar los emails de la exedil de Santurtzi apartada por la presunta filtración del examen de Policía"
+      },
+      {
         "_id": "HM-YIJsBP5yYEGSn6fuh",
         "_score": 1.5652769,
         "title": "El Corte Inglés rebautiza como Kumo su empresa de centros de datos y lo celebra con el mayor contrato público de la historia de la filial"
-      },
-      {
-        "_id": "31vXDJsBawBZBRiWXnsG",
-        "_score": 1.5330003,
-        "title": "Durango habilita nuevas fechas para renovar el DNI y el pasaporte"
       }
     ],
     "Resultados deportivos del fin de semana": [
@@ -849,6 +849,11 @@
         "title": "El 'top 8' de la Champions, complicado pero no imposible para el Barça: todo el calendario"
       },
       {
+        "_id": "0lIKJ5sBEylyhe5XiLb5",
+        "_score": 1.7193159,
+        "title": "Ya hay propuesta de fecha para jugar el aplazado Levante-Villarreal"
+      },
+      {
         "_id": "JSH5-ZoBL6BCT6PtpJpX",
         "_score": 1.7171005,
         "title": "Éstas son las crónicas de la jornada 13ª de la Liga F Moeve"
@@ -857,18 +862,23 @@
         "_id": "6VvXDJsBawBZBRiWXnsG",
         "_score": 1.7125114,
         "title": "Octavos de Copa del Rey en el primer asalto de la semana del doble derbi"
-      },
-      {
-        "_id": "LHtC-5oBPclaZKDfKB4p",
-        "_score": 1.7118366,
-        "title": "Así queda la clasificación tras la derrota del Real Madrid ante el Celta"
       }
     ],
     "Noticias sobre tecnología móvil": [
       {
+        "_id": "0dcsI5sBP5yYEGSn20Pa",
+        "_score": 1.5990682,
+        "title": "Piden investigar los emails de la exedil de Santurtzi apartada por la presunta filtración del examen de Policía"
+      },
+      {
         "_id": "hsw96ZoB8FUZJiYYUh_t",
         "_score": 1.5914819,
         "title": "El ex número dos de Santos Cerdán afirma que entró en \"shock\" ante el informe de la UCO sobre su jefe: \"La persona que yo conocía trabajaba muchísimo\""
+      },
+      {
+        "_id": "xXvkIZsBawBZBRiWOKVY",
+        "_score": 1.590208,
+        "title": "La cúpula de Vox conocía las presuntas irregularidades de Revuelta, su rama juvenil"
       },
       {
         "_id": "-sFyG5sBP5yYEGSnRwZ7",
@@ -879,16 +889,6 @@
         "_id": "1W0_8poBPclaZKDfC3ck",
         "_score": 1.5888932,
         "title": "Habla la edil de Torremolinos del PSOE acosada: “Fui al juzgado porque la situación era insoportable”"
-      },
-      {
-        "_id": "4mRwEpsBawBZBRiWsxbX",
-        "_score": 1.5875596,
-        "title": "Los Reyes felicitan la Navidad con una foto familiar y Juan Carlos I y doña Sofía, con una imagen de sus perros"
-      },
-      {
-        "_id": "gus96ZoBWNoH_2TAKnGz",
-        "_score": 1.5870671,
-        "title": "El subdirector de Emergencias revela ante la jueza de la dana que la alerta se retrasó porque Pradas quiso corregir el texto en valenciano"
       }
     ],
     "Actualidad sobre el Parlamento Europeo": [
@@ -925,24 +925,24 @@
         "title": "Los minutos clave de la dana en los que se frenó “confinar” a la población"
       },
       {
+        "_id": "0dcsI5sBP5yYEGSn20Pa",
+        "_score": 1.5958092,
+        "title": "Piden investigar los emails de la exedil de Santurtzi apartada por la presunta filtración del examen de Policía"
+      },
+      {
+        "_id": "5dctI5sBP5yYEGSnfUUp",
+        "_score": 1.5872074,
+        "title": "El consejo de Tuvisa abordará este jueves la reprobación y cese de la gerente"
+      },
+      {
         "_id": "HM-YIJsBP5yYEGSn6fuh",
         "_score": 1.5698597,
         "title": "El Corte Inglés rebautiza como Kumo su empresa de centros de datos y lo celebra con el mayor contrato público de la historia de la filial"
       },
       {
-        "_id": "fmpLFpsBawBZBRiWuA6m",
-        "_score": 1.5584244,
-        "title": "“Yo me he visto ya en seis bases de datos”: dónde acaba la información que ‘hackean’ a empresas españolas"
-      },
-      {
-        "_id": "8gn38JoBL6BCT6PtltE3",
-        "_score": 1.5576818,
-        "title": "Carles Coll, tercer español con el doblete de oros mundial y europeo en piscina corta"
-      },
-      {
-        "_id": "F8-YIJsBP5yYEGSn6fuh",
-        "_score": 1.5563071,
-        "title": "La multinacional vasca Teknei creará mil puestos de trabajo en Euskadi con dos nuevos proyectos"
+        "_id": "59ctI5sBP5yYEGSnfUUp",
+        "_score": 1.5694534,
+        "title": "Dudas, quejas y poco tráfico en el primer día de multas de la zona de bajas emisiones de Vitoria"
       }
     ],
     "Últimas novedades en medicina": [
@@ -950,6 +950,11 @@
         "_id": "0B6v-JoBL6BCT6PtfSQ_",
         "_score": 1.6067481,
         "title": "«¿Te subirías a un avión sabiendo que el piloto no ha dormido en 22 horas?»"
+      },
+      {
+        "_id": "NHviIZsBawBZBRiWFaJy",
+        "_score": 1.5838728,
+        "title": "Alexia Rivas comparte que sufre alopecia areata y muestra los avances de su tratamiento: \"Lo llevo mucho mejor de lo que pensaba\""
       },
       {
         "_id": "gDUf6ZoBY_uHLrwTlutN",
@@ -962,14 +967,9 @@
         "title": "Estrasburgo condena a Francia por no tratar de forma adecuada la esclerosis del etarra Susper en la cárcel"
       },
       {
-        "_id": "ni8g_5oBL6BCT6PteZqX",
-        "_score": 1.5741811,
-        "title": "Miles de médicos de Osakidetza comienzan mañana una huelga de cuatro días"
-      },
-      {
-        "_id": "T2v38JoBPclaZKDfcYmp",
-        "_score": 1.5637083,
-        "title": "El presidente del grupo que gestiona el hospital de Torrejón pide a sus trabajadores “mantener la calma y tomar distancia”"
+        "_id": "yFIIJ5sBEylyhe5X-bKx",
+        "_score": 1.5747981,
+        "title": "Osakidetza convocará en 2026 una OPE de 5.425 plazas, el 40% de medicina y enfermería"
       }
     ],
     "Noticias sobre fauna y medio ambiente": [
@@ -989,17 +989,22 @@
         "title": "La Diputación limpiará cuatro playas de forma manual en invierno para proteger sus ecosistemas"
       },
       {
+        "_id": "1XvkIZsBawBZBRiWOKVY",
+        "_score": 1.5757163,
+        "title": "El Govern flexibiliza este lunes las restricciones por la peste porcina en el segundo perímetro de Collserola"
+      },
+      {
         "_id": "4mgDFZsBawBZBRiW3BUG",
         "_score": 1.5613356,
         "title": "El INAH deja a un lado la investigación de las huellas de dinosaurio encontradas en Puebla por falta de presupuesto y condiciones de seguridad"
-      },
-      {
-        "_id": "MTY-6ZoBY_uHLrwTrQy9",
-        "_score": 1.550292,
-        "title": "Los pueblos que rodean Júndiz rechazan la llegada de LEA y la planta de compostaje"
       }
     ],
     "Resultados de partidos de fútbol recientes": [
+      {
+        "_id": "0lIKJ5sBEylyhe5XiLb5",
+        "_score": 1.723259,
+        "title": "Ya hay propuesta de fecha para jugar el aplazado Levante-Villarreal"
+      },
       {
         "_id": "Zmv38JoBPclaZKDfcYmp",
         "_score": 1.7124648,
@@ -1019,14 +1024,14 @@
         "_id": "EVvXDJsBawBZBRiWXnwG",
         "_score": 1.6941149,
         "title": "16 colosos vestidos de rojo y blanco"
-      },
-      {
-        "_id": "IFvXDJsBawBZBRiWHXv3",
-        "_score": 1.6930518,
-        "title": "Villarreal - Copenhague, en directo | Sigue en vivo, el partido de la Champions League de fútbol"
       }
     ],
     "Noticias sobre exploración espacial": [
+      {
+        "_id": "0dcsI5sBP5yYEGSn20Pa",
+        "_score": 1.5887899,
+        "title": "Piden investigar los emails de la exedil de Santurtzi apartada por la presunta filtración del examen de Policía"
+      },
       {
         "_id": "ZzUf6ZoBY_uHLrwTlutN",
         "_score": 1.5763454,
@@ -1046,11 +1051,6 @@
         "_id": "6mRwEpsBawBZBRiWsxbX",
         "_score": 1.5707846,
         "title": "La mano derecha de Mazón dice ante la jueza de la dana que los “WhatsApps” que desmontan su defensa “están descontextualizados”"
-      },
-      {
-        "_id": "Uxpl95oBL6BCT6PtbrU4",
-        "_score": 1.5703729,
-        "title": "El escándalo de Torrejón golpea la gran apuesta por la privatización sanitaria del PP de los últimos 30 años"
       }
     ],
     "Últimas noticias sobre conflictos internacionales": [
@@ -1087,6 +1087,11 @@
         "title": "LO MEJOR Y LO PEOR DE LOS 15 GRANDES MUSICALES DE LA TEMPORADA"
       },
       {
+        "_id": "8XvkIZsBawBZBRiWOKVY",
+        "_score": 1.6389761,
+        "title": "Bizkaiko gauaren heriotza isila"
+      },
+      {
         "_id": "RVxJDZsBawBZBRiWuiWh",
         "_score": 1.6086361,
         "title": "El disgusto de Broncano tras conocer la muerte de Robe Iniesta"
@@ -1100,11 +1105,6 @@
         "_id": "d6dwEpsBP5yYEGSnxie4",
         "_score": 1.6018684,
         "title": "Los 'looks' más arriesgados desfilan por la alfombra roja de los Premios Ídolo"
-      },
-      {
-        "_id": "n7JMFpsBP5yYEGSnQTMU",
-        "_score": 1.5993395,
-        "title": "Bilbao está lleno de huellas de García Ergüin y se pueden ver gratis en iglesias, hoteles, bares, portales..."
       }
     ]
   },
@@ -1180,14 +1180,14 @@
         "title": "Xabi Alonso le fue a pedir explicaciones a Turpin en el túnel de vestuarios"
       },
       {
+        "_id": "0392JJsBawBZBRiWU5g8",
+        "_score": 1.0719054,
+        "title": "Ruibal: \"Vallecas es un campo jodido y estamos contentos por cómo hemos competido\""
+      },
+      {
         "_id": "pMxPH5sBP5yYEGSnzzYa",
         "_score": 1.0674593,
         "title": "Calvert-Lewin salva al Leeds contra el Brentford"
-      },
-      {
-        "_id": "Am7gGJsBawBZBRiWNAdv",
-        "_score": 1.0667243,
-        "title": "La convocatoria del Real Madrid para el Alavés"
       }
     ],
     "Tecnología e innovación": [
@@ -1224,24 +1224,24 @@
         "title": "Llega la lluvia de estrellas de diciembre de 2025: cuándo se podrán ver las Gemínidas y cuándo será su pico máximo"
       },
       {
+        "_id": "u3vkIZsBawBZBRiWOKVY",
+        "_score": 1.0688409,
+        "title": "La vivienda no afloja en octubre: se vendieron 67.789 casas, récord en lo que va de año"
+      },
+      {
         "_id": "FWRwEpsBawBZBRiWwBct",
         "_score": 1.0676779,
         "title": "El sorteo de La Primitiva deja este pastizal para un único acertante en España"
       },
       {
+        "_id": "6lIKJ5sBEylyhe5XiLb5",
+        "_score": 1.066267,
+        "title": "El hijo mayor de Donald Trump, comprometido con la influencer Bettina Anderson"
+      },
+      {
         "_id": "d3_V_ZoBPclaZKDfuwu0",
         "_score": 1.0647182,
         "title": "Así funciona la alerta de Google que llegó a los móviles Android por el terremoto"
-      },
-      {
-        "_id": "6Bcc9poBL6BCT6PtAER_",
-        "_score": 1.0646989,
-        "title": "Calendario completo del Mundial 2026: fecha, horario y sede de todos los partidos"
-      },
-      {
-        "_id": "B2RwEpsBawBZBRiWwBct",
-        "_score": 1.0622451,
-        "title": "Gallinari y sus piques con Rudy Fernández: “Vino a mi casa, hice poca pasta y aún se queja”"
       }
     ],
     "Que ha pasado con la peste porcina": [
@@ -1273,6 +1273,11 @@
     ],
     "Quien es Pedro Sanchez": [
       {
+        "_id": "0H92JJsBawBZBRiWU5g8",
+        "_score": 1.080048,
+        "title": "Brecha salarial en las empresas del Ibex 35: sus máximos directivos ganan 111 veces más que la plantilla"
+      },
+      {
         "_id": "QCH5-ZoBL6BCT6PtYZkD",
         "_score": 1.0644828,
         "title": "El Arenas frena en seco al Bilbao Athletic"
@@ -1291,11 +1296,6 @@
         "_id": "-ZfZDJsBP5yYEGSnYDNl",
         "_score": 1.0568217,
         "title": "Trump anuncia la confiscación de un petrolero de Venezuela y Maduro dice que hay que «partirle los dientes» a EE UU"
-      },
-      {
-        "_id": "T8xQH5sBP5yYEGSnajh9",
-        "_score": 1.0557712,
-        "title": "El Gobierno vasco utilizará drones para perseguir a los pescadores furtivos"
       }
     ],
     "Últimas noticias de economía": [
@@ -1303,6 +1303,11 @@
         "_id": "FWRwEpsBawBZBRiWwBct",
         "_score": 1.0827613,
         "title": "El sorteo de La Primitiva deja este pastizal para un único acertante en España"
+      },
+      {
+        "_id": "4nvjIZsBawBZBRiW46Qk",
+        "_score": 1.0809851,
+        "title": "Ya hay encargado de dirigir al Valladolid contra el Eibar tras la salida de Almada"
       },
       {
         "_id": "8zUf6ZoBY_uHLrwT3OvK",
@@ -1318,11 +1323,6 @@
         "_id": "Yq4DFZsBP5yYEGSnRYBM",
         "_score": 1.0776137,
         "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
-      },
-      {
-        "_id": "6F6TDpsBawBZBRiW8CF5",
-        "_score": 1.0750031,
-        "title": "El alcalde de Ourense alaba al «ATHLETIC de BILBAO» dos días después de menospreciarlo"
       }
     ],
     "Resultados del FC Barcelona": [
@@ -1364,6 +1364,11 @@
         "title": "Ni tazas ni calcetines: los 9 regalos de amigo invisible que realmente sorprenden según tu presupuesto"
       },
       {
+        "_id": "9NctI5sBP5yYEGSnfUUp",
+        "_score": 1.0864301,
+        "title": "Es oficial: estos son los países que participarán en Eurovisión 2026 tras los últimos abandonos"
+      },
+      {
         "_id": "4H2M_JoBPclaZKDfrhUq",
         "_score": 1.085353,
         "title": "Caminar es saludable, pero existe una opción mejor: el ejercicio que tonifica tu cuerpo usando solo tu iPhone"
@@ -1372,11 +1377,6 @@
         "_id": "96MlEZsBP5yYEGSnwoG5",
         "_score": 1.0850245,
         "title": "El Opus Dei considera también “verosímiles” las acusaciones de los años ochenta en San Sebastián contra el cura denunciado por pederastia"
-      },
-      {
-        "_id": "2XmYIJsBawBZBRiW1-fZ",
-        "_score": 1.0826201,
-        "title": "Tonifica tu cuerpo con el aro de pilates en casa: los 10 mejores ejercicios para lograrlo"
       }
     ],
     "Noticias sobre el cambio climático": [
@@ -1391,6 +1391,11 @@
         "title": "La inflación acelera en Argentina y alcanza el 31,4% interanual"
       },
       {
+        "_id": "5HvjIZsBawBZBRiW46Qk",
+        "_score": 1.0699052,
+        "title": "\"Como Bisbal y Chenoa\": las cámaras pillan a Gabriel Rufián haciéndole 'la cobra' a Salomé Pradas"
+      },
+      {
         "_id": "0VvXDJsBawBZBRiWXnsG",
         "_score": 1.0697907,
         "title": "Trump asegura que “México debe solucionar inmediatamente su problema de agua”"
@@ -1399,11 +1404,6 @@
         "_id": "3b0qGpsBP5yYEGSnVk65",
         "_score": 1.0690482,
         "title": "Aimar, el joven autista vizcaíno que podrá ser funcionario en Vitoria"
-      },
-      {
-        "_id": "SXVm95oBPclaZKDfB0B7",
-        "_score": 1.0669031,
-        "title": "«Adiós, querida mía»: los dramáticos mensajes de despedida que metieron en una botella los náufragos vizcaínos del Rafael"
       }
     ],
     "Últimas noticias internacionales": [
@@ -1418,19 +1418,19 @@
         "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
       },
       {
+        "_id": "dNt1JJsBP5yYEGSnjQMC",
+        "_score": 1.091543,
+        "title": "Valverde y Luis Enrique coincidieron sobre el 'caso Negreira': \"Nadie me enseñó los informes\""
+      },
+      {
         "_id": "_ma6E5sBawBZBRiWdxqS",
         "_score": 1.0904884,
         "title": "La nueva obligación que el SEPE exigirá a los parados para cobrar el subsidio a partir de 2026"
       },
       {
-        "_id": "PTY-6ZoBY_uHLrwTrQy9",
-        "_score": 1.0812918,
-        "title": "El Gran Wyoming, sobre la privatización de la Sanidad en Madrid: \"Esta gente no es que se lleve un trozo del pastel, es que se comen hasta las velas\""
-      },
-      {
-        "_id": "5ZySDpsBP5yYEGSnUSQL",
-        "_score": 1.0804081,
-        "title": "Así quedan los sueldos de los funcionarios tras la subida salarial del 11,4% aprobada por el Congreso"
+        "_id": "bdt1JJsBP5yYEGSnjQMC",
+        "_score": 1.0823147,
+        "title": "Contundente respuesta de Tebas al mensaje de Florentino"
       }
     ],
     "Eventos deportivos esta semana": [
@@ -1462,6 +1462,11 @@
     ],
     "Consejos de salud mental": [
       {
+        "_id": "6lIKJ5sBEylyhe5XiLb5",
+        "_score": 1.0905317,
+        "title": "El hijo mayor de Donald Trump, comprometido con la influencer Bettina Anderson"
+      },
+      {
         "_id": "d3_V_ZoBPclaZKDfuwu0",
         "_score": 1.0789783,
         "title": "Así funciona la alerta de Google que llegó a los móviles Android por el terremoto"
@@ -1480,11 +1485,6 @@
         "_id": "pnMc9poBPclaZKDfAE4B",
         "_score": 1.0701467,
         "title": "El Athletic se resarce en una noche feliz | El Correo"
-      },
-      {
-        "_id": "VrWWF5sBP5yYEGSnR-fq",
-        "_score": 1.0679982,
-        "title": "Récord de audiencia para el Inter Miami de Leo Messi"
       }
     ],
     "Vacunas COVID-19 últimas noticias": [
@@ -1548,24 +1548,24 @@
         "title": "Calendario completo del Mundial 2026: fecha, horario y sede de todos los partidos"
       },
       {
+        "_id": "An92JJsBawBZBRiWbplj",
+        "_score": 1.0583808,
+        "title": "Ucrania asegura haber alcanzado por primera vez un submarino ruso con drones subacuáticos"
+      },
+      {
         "_id": "Yq4DFZsBP5yYEGSnRYBM",
         "_score": 1.0500116,
         "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
       },
       {
+        "_id": "adcsI5sBP5yYEGSnCkHR",
+        "_score": 1.0496225,
+        "title": "Sheinbaum, sobre el triunfo de la ultraderecha en Chile: “Es un momento de reflexión para los movimientos progresistas en América Latina”"
+      },
+      {
         "_id": "pMxPH5sBP5yYEGSnzzYa",
         "_score": 1.0484318,
         "title": "Calvert-Lewin salva al Leeds contra el Brentford"
-      },
-      {
-        "_id": "KCH5-ZoBL6BCT6PtpJpX",
-        "_score": 1.0481482,
-        "title": "Un experto comparte sus secretos: \"Descubre aplicaciones imprescindibles para sacarle más partido a tu TV Box o televisor con Google TV\""
-      },
-      {
-        "_id": "XhCJ85oBL6BCT6PtfIwj",
-        "_score": 1.047606,
-        "title": "El sarcófago de la central nuclear de Chernóbil pierde su función protectora tras el impacto de un dron, según la ONU"
       }
     ],
     "Resultados de la lotería nacional": [
@@ -1573,6 +1573,11 @@
         "_id": "vbngGJsBP5yYEGSnEJnF",
         "_score": 1.0675678,
         "title": "Kim Jong-un reconoce que las tropas norcoreanas realizan labores de desminado para Rusia"
+      },
+      {
+        "_id": "5HvjIZsBawBZBRiW46Qk",
+        "_score": 1.0633264,
+        "title": "\"Como Bisbal y Chenoa\": las cámaras pillan a Gabriel Rufián haciéndole 'la cobra' a Salomé Pradas"
       },
       {
         "_id": "Va4DFZsBP5yYEGSnRYBM",
@@ -1588,11 +1593,6 @@
         "_id": "3b0qGpsBP5yYEGSnVk65",
         "_score": 1.0612321,
         "title": "Aimar, el joven autista vizcaíno que podrá ser funcionario en Vitoria"
-      },
-      {
-        "_id": "22gDFZsBawBZBRiW3BUG",
-        "_score": 1.0609915,
-        "title": "Atapuerca"
       }
     ],
     "Noticias sobre educación en España": [
@@ -1617,9 +1617,9 @@
         "title": "Andrés Iniesta y John Hoffman, invitados de lujo en el palco"
       },
       {
-        "_id": "DjUf6ZoBY_uHLrwT3OzK",
-        "_score": 1.0462066,
-        "title": "El Gobierno vasco subirá «cuanto antes» el sueldo a los funcionarios"
+        "_id": "53vjIZsBawBZBRiW46Qk",
+        "_score": 1.0470682,
+        "title": "González justifica el acuerdo con Podemos: «El Gobierno es consciente de su minoría y sobre todo de que Álava es un territorio muy plural»"
       }
     ],
     "Pronóstico del tiempo para Barcelona": [
@@ -1737,24 +1737,24 @@
         "title": "Un experto comparte sus secretos: \"Descubre aplicaciones imprescindibles para sacarle más partido a tu TV Box o televisor con Google TV\""
       },
       {
-        "_id": "FWRwEpsBawBZBRiWwBct",
-        "_score": 1.0587405,
-        "title": "El sorteo de La Primitiva deja este pastizal para un único acertante en España"
+        "_id": "6lIKJ5sBEylyhe5XiLb5",
+        "_score": 1.0717759,
+        "title": "El hijo mayor de Donald Trump, comprometido con la influencer Bettina Anderson"
       },
       {
-        "_id": "zS8f_5oBL6BCT6PtH5b8",
-        "_score": 1.0574114,
-        "title": "Paramount lanza una opa hostil de 108.400 millones de dólares por Warner para competir con la oferta de Netflix"
+        "_id": "1NcsI5sBP5yYEGSn20Pa",
+        "_score": 1.0664316,
+        "title": "Inversores vascos se lanzan a por Agile TV, el tercer proveedor nacional para plataformas de fibra e internet"
       },
       {
-        "_id": "QCH5-ZoBL6BCT6PtYZkD",
-        "_score": 1.056593,
-        "title": "El Arenas frena en seco al Bilbao Athletic"
+        "_id": "1tcsI5sBP5yYEGSn20Pa",
+        "_score": 1.0632054,
+        "title": "Spotify sufre una caída y miles de usuarios reportan fallos"
       },
       {
-        "_id": "bbGQBZsBDfrzuDgnMkf1",
-        "_score": 1.0561779,
-        "title": "Por qué Netflix tiene tanto interés en HBO: 15 años de tiras y aflojas entre los gigantes del 'streaming'"
+        "_id": "adcsI5sBP5yYEGSnCkHR",
+        "_score": 1.0591459,
+        "title": "Sheinbaum, sobre el triunfo de la ultraderecha en Chile: “Es un momento de reflexión para los movimientos progresistas en América Latina”"
       }
     ],
     "Noticias sobre energías renovables": [
@@ -1762,6 +1762,16 @@
         "_id": "hWDcD5sBawBZBRiW-x-Q",
         "_score": 1.0923959,
         "title": "La inflación acelera en Argentina y alcanza el 31,4% interanual"
+      },
+      {
+        "_id": "Q5gKJ5sBbsp0CIKwIRrn",
+        "_score": 1.0856503,
+        "title": "Jorge Buxadé: \"¿Y Vox sabía? Vox sabía. ¿Y qué hicieron? Nada, eran camaradas"
+      },
+      {
+        "_id": "53vjIZsBawBZBRiW46Qk",
+        "_score": 1.0855944,
+        "title": "González justifica el acuerdo con Podemos: «El Gobierno es consciente de su minoría y sobre todo de que Álava es un territorio muy plural»"
       },
       {
         "_id": "ylvXDJsBawBZBRiWXnsG",
@@ -1772,16 +1782,6 @@
         "_id": "NJfZDJsBP5yYEGSnYDRl",
         "_score": 1.0780607,
         "title": "«Amicus Plato»"
-      },
-      {
-        "_id": "lXMd9poBPclaZKDfd1D4",
-        "_score": 1.0749114,
-        "title": "Los 'asesinos' de la inversión"
-      },
-      {
-        "_id": "4r0qGpsBP5yYEGSnVk65",
-        "_score": 1.0748177,
-        "title": "El plan financiero del país, en el aire"
       }
     ],
     "Actualidad sobre elecciones locales": [
@@ -1840,6 +1840,11 @@
     ],
     "Consejos de alimentación saludable": [
       {
+        "_id": "An92JJsBawBZBRiWbplj",
+        "_score": 1.067697,
+        "title": "Ucrania asegura haber alcanzado por primera vez un submarino ruso con drones subacuáticos"
+      },
+      {
         "_id": "dxCI85oBL6BCT6PtxYrO",
         "_score": 1.0601256,
         "title": "Guerra Ucrania-Rusia, última hora en directo | Ataque masivo de Rusia antes de la reunión de la Casa Blanca y Kiev"
@@ -1850,19 +1855,14 @@
         "title": "Calendario completo del Mundial 2026: fecha, horario y sede de todos los partidos"
       },
       {
-        "_id": "4H2M_JoBPclaZKDfrhUq",
-        "_score": 1.0454466,
-        "title": "Caminar es saludable, pero existe una opción mejor: el ejercicio que tonifica tu cuerpo usando solo tu iPhone"
+        "_id": "6lIKJ5sBEylyhe5XiLb5",
+        "_score": 1.0500267,
+        "title": "El hijo mayor de Donald Trump, comprometido con la influencer Bettina Anderson"
       },
       {
-        "_id": "T8xQH5sBP5yYEGSnajh9",
-        "_score": 1.0445439,
-        "title": "El Gobierno vasco utilizará drones para perseguir a los pescadores furtivos"
-      },
-      {
-        "_id": "QCH5-ZoBL6BCT6PtYZkD",
-        "_score": 1.0433939,
-        "title": "El Arenas frena en seco al Bilbao Athletic"
+        "_id": "ZNcsI5sBP5yYEGSnCkHR",
+        "_score": 1.0484285,
+        "title": "Ucrania hace estallar un submarino ruso en un puerto del mar Negro cercano a un palacio de Putin"
       }
     ],
     "Noticias sobre inflación en Europa": [
@@ -1904,6 +1904,11 @@
         "title": "Elche 3 - 0 Girona: resultado, resumen, goles y clasificación | LaLiga EA Sports"
       },
       {
+        "_id": "6lIKJ5sBEylyhe5XiLb5",
+        "_score": 1.0806956,
+        "title": "El hijo mayor de Donald Trump, comprometido con la influencer Bettina Anderson"
+      },
+      {
         "_id": "KCH5-ZoBL6BCT6PtpJpX",
         "_score": 1.0805122,
         "title": "Un experto comparte sus secretos: \"Descubre aplicaciones imprescindibles para sacarle más partido a tu TV Box o televisor con Google TV\""
@@ -1912,11 +1917,6 @@
         "_id": "CW7gGJsBawBZBRiWNAdv",
         "_score": 1.078866,
         "title": "Pablo Laso vuelve a la Euroliga y ficha por el Efes hasta 2027"
-      },
-      {
-        "_id": "YK4DFZsBP5yYEGSnRYBM",
-        "_score": 1.0784408,
-        "title": "¿Entusiasmo en el trabajo?"
       }
     ],
     "Últimas noticias sobre economía digital": [
@@ -1941,9 +1941,9 @@
         "title": "Dimite el CEO de la gestora del Hospital de Torrejón de Ardoz tras la filtración de audios en los que pide aumentar las listas de espera"
       },
       {
-        "_id": "FWRwEpsBawBZBRiWwBct",
-        "_score": 1.0826681,
-        "title": "El sorteo de La Primitiva deja este pastizal para un único acertante en España"
+        "_id": "xVIIJ5sBEylyhe5X-bKx",
+        "_score": 1.0843477,
+        "title": "Más de 25.000 jóvenes con alta cualificación desean volver a Euskadi pero les frena la falta de oportunidades"
       }
     ],
     "Resultados deportivos del fin de semana": [
@@ -1990,14 +1990,14 @@
         "title": "La guerra entre los carteles en la frontera sur obliga a reforzar el despliegue militar en México y Guatemala"
       },
       {
+        "_id": "53vjIZsBawBZBRiW46Qk",
+        "_score": 1.0604614,
+        "title": "González justifica el acuerdo con Podemos: «El Gobierno es consciente de su minoría y sobre todo de que Álava es un territorio muy plural»"
+      },
+      {
         "_id": "6Bcc9poBL6BCT6PtrEYa",
         "_score": 1.0599416,
         "title": "El negocio de ‘encender’ la Navidad: 100 millones y carreras por iluminar más"
-      },
-      {
-        "_id": "ab0pGpsBP5yYEGSn7U0-",
-        "_score": 1.0592191,
-        "title": "Andrés Iniesta y John Hoffman, invitados de lujo en el palco"
       }
     ],
     "Actualidad sobre el Parlamento Europeo": [
@@ -2017,14 +2017,14 @@
         "title": "La inflación mantiene su avance en el 3,2% en Euskadi"
       },
       {
+        "_id": "t-gJJ5sBTCbcFwz-zOyk",
+        "_score": 1.0670446,
+        "title": "El Govern anuncia 10 nuevos casos positivos de peste porcina africana, hasta 26"
+      },
+      {
         "_id": "93ev-JoBPclaZKDfvzIC",
         "_score": 1.0667291,
         "title": "Tormenta en la sacristía. ¿Qué quedó del Concilio Vaticano II?"
-      },
-      {
-        "_id": "dxCI85oBL6BCT6PtxYrO",
-        "_score": 1.0663109,
-        "title": "Guerra Ucrania-Rusia, última hora en directo | Ataque masivo de Rusia antes de la reunión de la Casa Blanca y Kiev"
       }
     ],
     "Noticias sobre seguridad cibernética": [
@@ -2066,6 +2066,11 @@
         "title": "El sorteo de La Primitiva deja este pastizal para un único acertante en España"
       },
       {
+        "_id": "5HvjIZsBawBZBRiW46Qk",
+        "_score": 1.0758939,
+        "title": "\"Como Bisbal y Chenoa\": las cámaras pillan a Gabriel Rufián haciéndole 'la cobra' a Salomé Pradas"
+      },
+      {
         "_id": "B2RwEpsBawBZBRiWwBct",
         "_score": 1.0749712,
         "title": "Gallinari y sus piques con Rudy Fernández: “Vino a mi casa, hice poca pasta y aún se queja”"
@@ -2074,11 +2079,6 @@
         "_id": "6F6TDpsBawBZBRiW8CF5",
         "_score": 1.0704582,
         "title": "El alcalde de Ourense alaba al «ATHLETIC de BILBAO» dos días después de menospreciarlo"
-      },
-      {
-        "_id": "JFvXDJsBawBZBRiWHXv3",
-        "_score": 1.0703107,
-        "title": "Lamine Yamal firma un nuevo récord de precocidad y supera a Mbappé"
       }
     ],
     "Noticias sobre fauna y medio ambiente": [
@@ -2120,6 +2120,11 @@
         "title": "La inflación mantiene su avance en el 3,2% en Euskadi"
       },
       {
+        "_id": "s96-JZsBP5yYEGSn0dAT",
+        "_score": 1.0849214,
+        "title": "No todos los insomnios son iguales: un estudio español confirma la existencia de cinco subtipos y abre la puerta a tratamientos más personalizados"
+      },
+      {
         "_id": "-phKDZsBP5yYEGSntnR_",
         "_score": 1.0775948,
         "title": "El nuevo gastrobar de Vitoria que llega con una propuesta «fresca, casera y con identidad»"
@@ -2128,11 +2133,6 @@
         "_id": "CpfZDJsBP5yYEGSnYDRl",
         "_score": 1.0756218,
         "title": "El mayor estudio hasta el momento sobre antidepresivos es contundente: hay que dejarlos despacio y con terapia psicológica"
-      },
-      {
-        "_id": "hWDcD5sBawBZBRiW-x-Q",
-        "_score": 1.0740452,
-        "title": "La inflación acelera en Argentina y alcanza el 31,4% interanual"
       }
     ],
     "Noticias sobre exploración espacial": [
@@ -2147,6 +2147,11 @@
         "title": "La inflación acelera en Argentina y alcanza el 31,4% interanual"
       },
       {
+        "_id": "Q5gKJ5sBbsp0CIKwIRrn",
+        "_score": 1.0606793,
+        "title": "Jorge Buxadé: \"¿Y Vox sabía? Vox sabía. ¿Y qué hicieron? Nada, eran camaradas"
+      },
+      {
         "_id": "Yq4DFZsBP5yYEGSnRYBM",
         "_score": 1.060581,
         "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
@@ -2155,11 +2160,6 @@
         "_id": "5ZySDpsBP5yYEGSnUSQL",
         "_score": 1.0596793,
         "title": "Así quedan los sueldos de los funcionarios tras la subida salarial del 11,4% aprobada por el Congreso"
-      },
-      {
-        "_id": "oGDdD5sBawBZBRiWcyCx",
-        "_score": 1.0584574,
-        "title": "Howard, MVP azulgrana del Real Madrid-Baskonia. ¿Quién ha sido el mejor para ti? Vota aquí"
       }
     ],
     "Últimas noticias sobre conflictos internacionales": [
@@ -2184,12 +2184,17 @@
         "title": "Ucrania batalla para mantener su economía con vida"
       },
       {
-        "_id": "HJfZDJsBP5yYEGSnYDRl",
-        "_score": 1.0599002,
-        "title": "Así queda el marcador de los cruces entre equipos de Premier League y LaLiga en esta Champions"
+        "_id": "adcsI5sBP5yYEGSnCkHR",
+        "_score": 1.0601954,
+        "title": "Sheinbaum, sobre el triunfo de la ultraderecha en Chile: “Es un momento de reflexión para los movimientos progresistas en América Latina”"
       }
     ],
     "Noticias sobre música y conciertos": [
+      {
+        "_id": "6lIKJ5sBEylyhe5XiLb5",
+        "_score": 1.0542233,
+        "title": "El hijo mayor de Donald Trump, comprometido con la influencer Bettina Anderson"
+      },
       {
         "_id": "hWDcD5sBawBZBRiW-x-Q",
         "_score": 1.0541797,
@@ -2209,15 +2214,10 @@
         "_id": "8zUf6ZoBY_uHLrwT3OvK",
         "_score": 1.0439804,
         "title": "Llega la lluvia de estrellas de diciembre de 2025: cuándo se podrán ver las Gemínidas y cuándo será su pico máximo"
-      },
-      {
-        "_id": "0VvXDJsBawBZBRiWXnsG",
-        "_score": 1.0422792,
-        "title": "Trump asegura que “México debe solucionar inmediatamente su problema de agua”"
       }
     ]
   },
-  "sentence-transformers/paraphrase-multilingual-mpnet-base-v2": {
+  "paraphrase-multilingual-mpnet-base-v2": {
     "Noticias sobre política": [
       {
         "_id": "cXdPH5sBawBZBRiWoO0H",
@@ -2230,19 +2230,19 @@
         "title": "El Gobierno salva con la geometría variable cinco proyectos en el último pleno de 2025"
       },
       {
+        "_id": "SNt2JJsBP5yYEGSn0gdq",
+        "_score": 1.3868736,
+        "title": "El año que Bildu perdió la iniciativa política"
+      },
+      {
         "_id": "h8w96ZoB8FUZJiYYUh_t",
         "_score": 1.3867605,
         "title": "María Guardiola no acudirá al debate electoral de Extremadura organizado por RTVE"
       },
       {
-        "_id": "52a4E5sBawBZBRiWpRfA",
-        "_score": 1.3709873,
-        "title": "El PSOE abre expediente a Javier Izquierdo, aunque precisa que no hay denuncias por acoso"
-      },
-      {
-        "_id": "mcw96ZoB8FUZJiYYUh_t",
-        "_score": 1.365772,
-        "title": "El PSE rebaja el choque con el PNV por revelar el origen de los delincuentes"
+        "_id": "Qdt2JJsBP5yYEGSn0gdq",
+        "_score": 1.3824828,
+        "title": "Pablo Gómez asume que la reforma electoral estará lista para febrero"
       }
     ],
     "Fútbol hoy": [
@@ -2262,17 +2262,22 @@
         "title": "Jordi Cruyff: \"La enfermedad de mi hija me cambió la vida\""
       },
       {
+        "_id": "sX0tI5sBawBZBRiWAp50",
+        "_score": 1.3457232,
+        "title": "Un nuevo Guardiola"
+      },
+      {
         "_id": "axcd9poBL6BCT6PtP0jy",
         "_score": 1.3415653,
         "title": "Berenguer rompe su sequía con un gol que vale oro"
-      },
-      {
-        "_id": "4FxKDZsBawBZBRiWAiUF",
-        "_score": 1.3347889,
-        "title": "El Barça pide daños y perjuicios al Eintracht por los destrozos de su afición"
       }
     ],
     "Clima en Madrid": [
+      {
+        "_id": "MHviIZsBawBZBRiWFaJy",
+        "_score": 1.5460333,
+        "title": "Advertencia del Meteocat por lluvias intensas: estas serán las zonas más afectadas"
+      },
       {
         "_id": "zVxIDZsBawBZBRiWlSMJ",
         "_score": 1.5387878,
@@ -2284,22 +2289,22 @@
         "title": "Barcelona, preparada para la llegada del frío y las lluvias: el Meteocat ya pone fecha al cambio del tiempo en la ciudad"
       },
       {
+        "_id": "uegJJ5sBTCbcFwz-zOyk",
+        "_score": 1.524766,
+        "title": "España despide un 2025 “extremadamente cálido”: los últimos cuatro años son los más calurosos registrados hasta ahora en el país"
+      },
+      {
         "_id": "uVvXDJsBawBZBRiWXnsG",
         "_score": 1.5019777,
         "title": "Aviso amarillo por lluvias en Bilbao este miércoles hasta las diez de la noche"
-      },
-      {
-        "_id": "Ic-YIJsBP5yYEGSn6fuh",
-        "_score": 1.4975679,
-        "title": "Los incendios forestales de 2025 en España han generado tanto CO₂ como cinco veces la aviación nacional o el doble de la industria del refino"
-      },
-      {
-        "_id": "cSzW_ZoBL6BCT6PtPhRP",
-        "_score": 1.4819942,
-        "title": "Lleno total en el puente de la Constitución"
       }
     ],
     "Tecnología e innovación": [
+      {
+        "_id": "7NctI5sBP5yYEGSnfUUp",
+        "_score": 1.3144305,
+        "title": "El Ayuntamiento de Vitoria oferta 1.250 plazas en cursos de formación para el empleo de 2026"
+      },
       {
         "_id": "vVvXDJsBawBZBRiWXnsG",
         "_score": 1.3107003,
@@ -2311,19 +2316,14 @@
         "title": "La multinacional vasca Teknei creará mil puestos de trabajo en Euskadi con dos nuevos proyectos"
       },
       {
-        "_id": "fOs96ZoBWNoH_2TAKnGz",
-        "_score": 1.260126,
-        "title": "Bruselas abre una investigación antimonopolio sobre Meta por el acceso de proveedores de IA a WhatsApp"
+        "_id": "y392JJsBawBZBRiWU5g8",
+        "_score": 1.2864888,
+        "title": "Qué ocurrirá con los robots aspiradores Roomba después de la quiebra de iRobot"
       },
       {
-        "_id": "dmDcD5sBawBZBRiW-x-Q",
-        "_score": 1.2555289,
-        "title": "Pulso de Europa a las tecnológicas"
-      },
-      {
-        "_id": "1G7fGJsBawBZBRiWeQWQ",
-        "_score": 1.2466725,
-        "title": "La industria polaca del videojuego se da cita en el Palacio Euskalduna"
+        "_id": "xNctI5sBP5yYEGSnfUUp",
+        "_score": 1.2615047,
+        "title": "Nvidia vuelve a salir de compras: adquiere SchedMD, desarrolladora del sistema de gestión de cargas Slurm"
       }
     ],
     "Salud y medicina": [
@@ -2355,9 +2355,19 @@
     ],
     "Que ha pasado con la peste porcina": [
       {
+        "_id": "t-gJJ5sBTCbcFwz-zOyk",
+        "_score": 1.4785216,
+        "title": "El Govern anuncia 10 nuevos casos positivos de peste porcina africana, hasta 26"
+      },
+      {
         "_id": "GGa6E5sBawBZBRiWHhp_",
         "_score": 1.4673339,
         "title": "Las autoridades confirman tres nuevos casos positivos de peste porcina en Barcelona, hasta un total de 16"
+      },
+      {
+        "_id": "klIIJ5sBEylyhe5XbrGP",
+        "_score": 1.4600608,
+        "title": "Cataluña eleva a 26 los jabalíes muertos por peste porcina africana en Collserola"
       },
       {
         "_id": "vS8g_5oBL6BCT6PteZqX",
@@ -2368,16 +2378,6 @@
         "_id": "oi8g_5oBL6BCT6PteZqX",
         "_score": 1.4381547,
         "title": "Los camioneros exigen disculpas a la Generalitat por la “teoría del bocadillo”"
-      },
-      {
-        "_id": "ISiM_JoBL6BCT6PtvZE-",
-        "_score": 1.4360201,
-        "title": "Silencio en la zona de seguridad de la peste porcina: “Hay menos gente que en la covid”"
-      },
-      {
-        "_id": "ITY-6ZoBY_uHLrwTrQy9",
-        "_score": 1.4343709,
-        "title": "El Govern afirma que la gran mayoría de los 50 jabalíes hallados muertos han dado negativo de peste porcina"
       }
     ],
     "Quien es Pedro Sanchez": [
@@ -2419,6 +2419,11 @@
         "title": "La Policía registra la sede de Plus Ultra, la aerolínea rescatada por el Gobierno"
       },
       {
+        "_id": "09csI5sBP5yYEGSn20Pa",
+        "_score": 1.3793123,
+        "title": "Las empresas vascas señalan el alza de los costes laborales como el mayor freno a su actividad"
+      },
+      {
         "_id": "jp_cD5sBP5yYEGSnvNtA",
         "_score": 1.3759369,
         "title": "Los socios de Gobierno chocan sobre cómo calcular el incremento del salario mínimo"
@@ -2427,11 +2432,6 @@
         "_id": "KZfZDJsBP5yYEGSnYDRl",
         "_score": 1.3661623,
         "title": "Aperribay reconoce el problema de impago con Yasuda pero espera que una nueva empresa lo solucione"
-      },
-      {
-        "_id": "jzUf6ZoBY_uHLrwTlutN",
-        "_score": 1.3510592,
-        "title": "Inditex se dispara un 7% en Bolsa tras ganar 4.622 millones hasta octubre, un 3,9% más"
       }
     ],
     "Resultados del FC Barcelona": [
@@ -2439,6 +2439,11 @@
         "_id": "uiVD-5oBL6BCT6PtVwxy",
         "_score": 1.606044,
         "title": "La presión del Barça vuelve a acusarla el Madrid"
+      },
+      {
+        "_id": "Vn0rI5sBawBZBRiWd5ww",
+        "_score": 1.5920918,
+        "title": "El Barça renueva a Claudia Pina hasta 2029"
       },
       {
         "_id": "37GRBZsBDfrzuDgnREnw",
@@ -2454,11 +2459,6 @@
         "_id": "r0CQBZsBmDbJylAo1rOP",
         "_score": 1.5809501,
         "title": "Quinto partido seguido en que el Barça empezó perdiendo"
-      },
-      {
-        "_id": "HDY-6ZoBY_uHLrwTrQy9",
-        "_score": 1.5802264,
-        "title": "Oficial: entradas exclusivamente para socios en el Barça-Eintracht"
       }
     ],
     "En que posiciones juega Eric Garcia": [
@@ -2483,9 +2483,9 @@
         "title": "¡Ojo al gesto de Xabi Alonso a Fran García!"
       },
       {
-        "_id": "F1vXDJsBawBZBRiWXnwG",
-        "_score": 1.3406415,
-        "title": "Luis Enrique a Simón al acabar el partido: «Vaya, hombre, tienes que hacer el mejor partido contra mí»"
+        "_id": "2dctI5sBP5yYEGSnfUUp",
+        "_score": 1.3408586,
+        "title": "Reguilón jugará con Leo Messi"
       }
     ],
     "Noticias sobre el cambio climático": [
@@ -2495,24 +2495,24 @@
         "title": "Los incendios forestales de 2025 en España han generado tanto CO₂ como cinco veces la aviación nacional o el doble de la industria del refino"
       },
       {
+        "_id": "x3vjIZsBawBZBRiWGqMK",
+        "_score": 1.4104108,
+        "title": "Bizkaia reduce su consumo energético en un 6% pero es responsable de más de la mitad de las emisiones en Euskadi"
+      },
+      {
+        "_id": "uegJJ5sBTCbcFwz-zOyk",
+        "_score": 1.3977798,
+        "title": "España despide un 2025 “extremadamente cálido”: los últimos cuatro años son los más calurosos registrados hasta ahora en el país"
+      },
+      {
+        "_id": "2H92JJsBawBZBRiWU5g8",
+        "_score": 1.3743515,
+        "title": "Asteklima premia la iniciativa 'Energia Eguna' de Santa Ana"
+      },
+      {
         "_id": "LWRvEpsBawBZBRiWERRU",
         "_score": 1.370614,
         "title": "Precio de la luz hoy viernes 12 de diciembre por franjas y tramos: ¿Cuándo es más barata?"
-      },
-      {
-        "_id": "zFxIDZsBawBZBRiWlSMJ",
-        "_score": 1.3692322,
-        "title": "Precio de la luz hoy jueves 11 de diciembre por franjas y tramos: ¿Cuándo es más barata?"
-      },
-      {
-        "_id": "T_pRB5sB5klTY2FPOdCs",
-        "_score": 1.3684201,
-        "title": "Precio de la luz hoy miércoles 10 de diciembre por franjas y tramos: ¿Cuándo es más barata?"
-      },
-      {
-        "_id": "c-s96ZoBWNoH_2TAKnGz",
-        "_score": 1.3650608,
-        "title": "El apagón, quién es Andy y quién es Lucas o cómo hacer caca en el trabajo, entre lo más buscado en Google este 2025"
       }
     ],
     "Últimas noticias internacionales": [
@@ -2532,14 +2532,14 @@
         "title": "Starmer, Macron y Merz se reúnen con Zelenski en Londres tras las críticas de Trump «por no leer el plan de paz»"
       },
       {
+        "_id": "y-gJJ5sBTCbcFwz-zOyk",
+        "_score": 1.3221457,
+        "title": "Peinado pregunta a la UCO si hay nuevos datos sobre Air Europa para tratar de reabrir esa vía"
+      },
+      {
         "_id": "7X_V_ZoBPclaZKDfYApx",
         "_score": 1.3212364,
         "title": "El Gobierno vasco no prevé réplicas del seísmo «y si las hay, serán imperceptibles»"
-      },
-      {
-        "_id": "6GRwEpsBawBZBRiWsxbX",
-        "_score": 1.3211701,
-        "title": "El jefe de la misión de rescate de María Corina Machado: “Fue una de las operaciones de mayor riesgo en las que he participado”"
       }
     ],
     "Eventos deportivos esta semana": [
@@ -2598,29 +2598,29 @@
     ],
     "Vacunas COVID-19 últimas noticias": [
       {
+        "_id": "BH92JJsBawBZBRiWbplj",
+        "_score": 1.4163913,
+        "title": "Los contagios de gripe aumentan un 41% la última semana a las puertas de la Navidad"
+      },
+      {
+        "_id": "9VIKJ5sBEylyhe5XiLb5",
+        "_score": 1.4159608,
+        "title": "Los contagios de gripe aumentan un 41% la última semana a las puertas de la Navidad"
+      },
+      {
+        "_id": "NHviIZsBawBZBRiWFaJy",
+        "_score": 1.3893741,
+        "title": "Alexia Rivas comparte que sufre alopecia areata y muestra los avances de su tratamiento: \"Lo llevo mucho mejor de lo que pensaba\""
+      },
+      {
         "_id": "ITY-6ZoBY_uHLrwTrQy9",
         "_score": 1.3700294,
         "title": "El Govern afirma que la gran mayoría de los 50 jabalíes hallados muertos han dado negativo de peste porcina"
       },
       {
-        "_id": "1V6TDpsBawBZBRiW8CF5",
-        "_score": 1.3601805,
-        "title": "Una “puntualización” en ‘La Revuelta’ sobre el VIH: “El peligro es tenerlo y no saber que lo tienes”"
-      },
-      {
-        "_id": "Xhpm95oBL6BCT6PtMbeO",
-        "_score": 1.3582821,
-        "title": "El precio de la crisis porcina: “Estamos por debajo de los costes de producción”"
-      },
-      {
-        "_id": "vS8g_5oBL6BCT6PteZqX",
-        "_score": 1.3508922,
-        "title": "Seis expertos en bioseguridad investigarán si el virus de la peste porcina escapó de un laboratorio"
-      },
-      {
-        "_id": "kV6UDpsBawBZBRiWHiIj",
-        "_score": 1.350703,
-        "title": "Mercabarna prevé que la distribución de alimentos suba hasta un 8% en Navidad, con un impacto casi nulo de la peste porcina"
+        "_id": "wXvjIZsBawBZBRiWGqMK",
+        "_score": 1.3679643,
+        "title": "Madrid reconoce 20 focos de gripe aviar desde septiembre que han afectado a gallinas, ocas o cigüeñas"
       }
     ],
     "Noticias sobre inteligencia artificial": [
@@ -2628,6 +2628,11 @@
         "_id": "fOs96ZoBWNoH_2TAKnGz",
         "_score": 1.3754523,
         "title": "Bruselas abre una investigación antimonopolio sobre Meta por el acceso de proveedores de IA a WhatsApp"
+      },
+      {
+        "_id": "xNctI5sBP5yYEGSnfUUp",
+        "_score": 1.359246,
+        "title": "Nvidia vuelve a salir de compras: adquiere SchedMD, desarrolladora del sistema de gestión de cargas Slurm"
       },
       {
         "_id": "NHn5-ZoBPclaZKDfgSln",
@@ -2640,14 +2645,9 @@
         "title": "Los socios de Gobierno chocan sobre cómo calcular el incremento del salario mínimo"
       },
       {
-        "_id": "VsxQH5sBP5yYEGSnajh9",
-        "_score": 1.2871768,
-        "title": "Cómo sacarse un carnet para conducir robots en Ucrania: la revolución militar ya está aquí"
-      },
-      {
-        "_id": "-VvXDJsBawBZBRiWXnsG",
-        "_score": 1.2831693,
-        "title": "¿Puede ser la inteligencia artificial feminista?"
+        "_id": "7NctI5sBP5yYEGSnfUUp",
+        "_score": 1.2944913,
+        "title": "El Ayuntamiento de Vitoria oferta 1.250 plazas en cursos de formación para el empleo de 2026"
       }
     ],
     "Últimas tendencias en criptomonedas": [
@@ -2667,14 +2667,14 @@
         "title": "La multinacional vasca Teknei creará mil puestos de trabajo en Euskadi con dos nuevos proyectos"
       },
       {
+        "_id": "xNctI5sBP5yYEGSnfUUp",
+        "_score": 1.155768,
+        "title": "Nvidia vuelve a salir de compras: adquiere SchedMD, desarrolladora del sistema de gestión de cargas Slurm"
+      },
+      {
         "_id": "fTUf6ZoBY_uHLrwTlutN",
         "_score": 1.1452928,
         "title": "El Euromillones del martes sonríe a un nuevo millonario en España y deja una alegría en Bizkaia: resultados del 2 de diciembre"
-      },
-      {
-        "_id": "Z5fZDJsBP5yYEGSnYDRl",
-        "_score": 1.1375911,
-        "title": "¿Qué números han ganado más el Gordo en la historia del sorteo: bajos o altos?"
       }
     ],
     "Resultados de la lotería nacional": [
@@ -2711,6 +2711,11 @@
         "title": "Alvise pagó 13.140 euros a Vito Quiles en pleno tour de las universidades"
       },
       {
+        "_id": "zegJJ5sBTCbcFwz-zOyk",
+        "_score": 1.535798,
+        "title": "Pilar Alegría se despide del Gobierno para ser la candidata del PSOE en Aragón: «Vuelvo a mi casa»"
+      },
+      {
         "_id": "GDUf6ZoBY_uHLrwT3OzK",
         "_score": 1.530482,
         "title": "Erika, peruana viviendo en España: \"Si comparo un colegio público español con un colegio privado de Perú, están igual. Aquí no pago ninguna mensualidad ni nada por el estilo\""
@@ -2724,11 +2729,6 @@
         "_id": "MH_W_ZoBPclaZKDfFgyv",
         "_score": 1.5045989,
         "title": "Euskadi tiene más del doble de jóvenes voluntarios que hace 15 años"
-      },
-      {
-        "_id": "8pLYBpsB6JiCFyv_-_Ud",
-        "_score": 1.4997469,
-        "title": "Cajicá, el pueblo que se volvió modelo de la educación pública en Colombia"
       }
     ],
     "Pronóstico del tiempo para Barcelona": [
@@ -2736,6 +2736,11 @@
         "_id": "LGRvEpsBawBZBRiWERRU",
         "_score": 1.5473561,
         "title": "Barcelona, preparada para la llegada del frío y las lluvias: el Meteocat ya pone fecha al cambio del tiempo en la ciudad"
+      },
+      {
+        "_id": "MHviIZsBawBZBRiWFaJy",
+        "_score": 1.5462065,
+        "title": "Advertencia del Meteocat por lluvias intensas: estas serán las zonas más afectadas"
       },
       {
         "_id": "zVxIDZsBawBZBRiWlSMJ",
@@ -2751,14 +2756,14 @@
         "_id": "uVvXDJsBawBZBRiWXnsG",
         "_score": 1.4671413,
         "title": "Aviso amarillo por lluvias en Bilbao este miércoles hasta las diez de la noche"
-      },
-      {
-        "_id": "332M_JoBPclaZKDfrhUq",
-        "_score": 1.4470246,
-        "title": "Barcelona, la capital del running que rompe récords y seduce a Europa"
       }
     ],
     "Noticias de cine y estrenos": [
+      {
+        "_id": "yX92JJsBawBZBRiWU5g8",
+        "_score": 1.4786726,
+        "title": "Pelis navideñas"
+      },
       {
         "_id": "u2gCFZsBawBZBRiWdBPx",
         "_score": 1.449652,
@@ -2778,11 +2783,6 @@
         "_id": "1G7fGJsBawBZBRiWeQWQ",
         "_score": 1.4100482,
         "title": "La industria polaca del videojuego se da cita en el Palacio Euskalduna"
-      },
-      {
-        "_id": "370qGpsBP5yYEGSnVk65",
-        "_score": 1.401232,
-        "title": "Guerra entre gigantes"
       }
     ],
     "Actualidad sobre la UEFA Champions League": [
@@ -2790,6 +2790,16 @@
         "_id": "7VvXDJsBawBZBRiWHXr3",
         "_score": 1.5522039,
         "title": "Drástica medida de la UEFA"
+      },
+      {
+        "_id": "PpgKJ5sBbsp0CIKwIRrn",
+        "_score": 1.5131843,
+        "title": "La cantidad que recibirá la LaLiga española para los clubes que no participan en Europa"
+      },
+      {
+        "_id": "DX92JJsBawBZBRiWbplj",
+        "_score": 1.5099157,
+        "title": "¡Oficial! La segunda plaza para España en la nueva Champions, una posibilidad en el aire"
       },
       {
         "_id": "7ma6E5sBawBZBRiWdxqS",
@@ -2800,16 +2810,6 @@
         "_id": "83ev-JoBPclaZKDfvzIC",
         "_score": 1.4868704,
         "title": "La Nations League lleva a Mariona Caldentey a firmar un 2025 histórico"
-      },
-      {
-        "_id": "HDY-6ZoBY_uHLrwTrQy9",
-        "_score": 1.4693551,
-        "title": "Oficial: entradas exclusivamente para socios en el Barça-Eintracht"
-      },
-      {
-        "_id": "7gn38JoBL6BCT6PtltE3",
-        "_score": 1.468815,
-        "title": "La UEFA reduce a dos partidos la sanción a Luis Díaz por su entrada a Achraf"
       }
     ],
     "Noticias sobre contaminación del aire": [
@@ -2817,6 +2817,11 @@
         "_id": "CntD-5oBPclaZKDfTiD0",
         "_score": 1.4215425,
         "title": "El Gobierno vasco controla la calidad del aire en Muskiz tras un incidente en Petronor"
+      },
+      {
+        "_id": "x3vjIZsBawBZBRiWGqMK",
+        "_score": 1.4108336,
+        "title": "Bizkaia reduce su consumo energético en un 6% pero es responsable de más de la mitad de las emisiones en Euskadi"
       },
       {
         "_id": "Ic-YIJsBP5yYEGSn6fuh",
@@ -2832,11 +2837,6 @@
         "_id": "87GRBZsBDfrzuDgnREnw",
         "_score": 1.3556185,
         "title": "Vitoria planea abrir cinco nuevas celdas en el vertedero para residuos reutilizables"
-      },
-      {
-        "_id": "y1xIDZsBawBZBRiWlSMJ",
-        "_score": 1.3450747,
-        "title": "El Ayuntamiento de Madrid da marcha atrás y los vehículos sin etiqueta medioambiental podrán seguir circulando en 2026"
       }
     ],
     "Últimos descubrimientos científicos": [
@@ -2868,6 +2868,11 @@
     ],
     "Noticias sobre energías renovables": [
       {
+        "_id": "9pgIJ5sBbsp0CIKwQRdf",
+        "_score": 1.4674935,
+        "title": "Precio de la luz hoy martes 16 de diciembre por franjas y tramos: ¿Cuándo es más barata?"
+      },
+      {
         "_id": "GzUf6ZoBY_uHLrwT3OzK",
         "_score": 1.4637403,
         "title": "Innovación energética"
@@ -2878,22 +2883,22 @@
         "title": "Precio de la luz hoy domingo 14 de diciembre por franjas y tramos: ¿Cuándo es más barata?"
       },
       {
+        "_id": "OXviIZsBawBZBRiWH6Ly",
+        "_score": 1.4600619,
+        "title": "Precio de la luz hoy lunes 15 de diciembre por franjas y tramos: ¿Cuándo es más barata?"
+      },
+      {
         "_id": "B7WVF5sBP5yYEGSnKOSy",
         "_score": 1.456991,
         "title": "Precio de la luz hoy sábado 13 de diciembre por franjas y tramos: ¿Cuándo es más barata?"
-      },
-      {
-        "_id": "zFxIDZsBawBZBRiWlSMJ",
-        "_score": 1.443089,
-        "title": "Precio de la luz hoy jueves 11 de diciembre por franjas y tramos: ¿Cuándo es más barata?"
-      },
-      {
-        "_id": "LWRvEpsBawBZBRiWERRU",
-        "_score": 1.438917,
-        "title": "Precio de la luz hoy viernes 12 de diciembre por franjas y tramos: ¿Cuándo es más barata?"
       }
     ],
     "Actualidad sobre elecciones locales": [
+      {
+        "_id": "Qdt2JJsBP5yYEGSn0gdq",
+        "_score": 1.3905829,
+        "title": "Pablo Gómez asume que la reforma electoral estará lista para febrero"
+      },
       {
         "_id": "j5_cD5sBP5yYEGSnvNtA",
         "_score": 1.357038,
@@ -2913,14 +2918,14 @@
         "_id": "4pySDpsBP5yYEGSnUSQL",
         "_score": 1.3341129,
         "title": "El Gobierno salva con la geometría variable cinco proyectos en el último pleno de 2025"
-      },
-      {
-        "_id": "YhPT9JoBL6BCT6PtYOoc",
-        "_score": 1.3324411,
-        "title": "Azcón apunta a un adelanto electoral en Aragón si no logra el apoyo de Vox a los Presupuestos en “una semana”"
       }
     ],
     "Últimas noticias sobre transporte público": [
+      {
+        "_id": "v-gJJ5sBTCbcFwz-zOyk",
+        "_score": 1.4598383,
+        "title": "El Govern acuerda con los comunes mantener la bonificación del 50% en el transporte público en Cataluña"
+      },
       {
         "_id": "LH_W_ZoBPclaZKDfFgyv",
         "_score": 1.4362892,
@@ -2932,19 +2937,14 @@
         "title": "«La IA nos ayudará a reducir los usuarios que acceden sin pagar»"
       },
       {
-        "_id": "IGa6E5sBawBZBRiWdxuS",
-        "_score": 1.3517185,
-        "title": "Barcelona saca el látigo: a partir de este día, multará  hasta con 750 euros a los vecinos que hagan esto en lugares públicos o monumentos"
+        "_id": "XH0rI5sBawBZBRiWnJy9",
+        "_score": 1.3869941,
+        "title": "Sánchez anuncia un abono transporte único de 60 euros al mes para viajar por todo el país"
       },
       {
-        "_id": "gh6v-JoBL6BCT6PtBiNm",
-        "_score": 1.3296847,
-        "title": "Consulta la densidad media del tráfico en las 18 principales carreteras vizcaínas"
-      },
-      {
-        "_id": "_l6TDpsBawBZBRiW8CF5",
-        "_score": 1.3240107,
-        "title": "Taxistas denuncian que Getxo incumple la ley al no dar servicio a discapacitados"
+        "_id": "Z9csI5sBP5yYEGSnCkHR",
+        "_score": 1.385884,
+        "title": "El Gobierno lanzará en enero el abono transporte único por 60 euros al mes"
       }
     ],
     "Consejos de alimentación saludable": [
@@ -2969,12 +2969,17 @@
         "title": "Las 5 infusiones para calmar la ansiedad, según una nutricionista: «Ayuda a relajar el sistema nervioso»"
       },
       {
-        "_id": "B3tD-5oBPclaZKDfTiD0",
-        "_score": 1.2684685,
-        "title": "¿Tomas vitamina D? Pues cuidado con pasarse"
+        "_id": "RpgKJ5sBbsp0CIKwIRrn",
+        "_score": 1.273902,
+        "title": "¿Cómo elabora Nutrisport sus complementos alimenticios para running y otros deportes? Visitamos su planta de producción cerca de Barcelona"
       }
     ],
     "Noticias sobre inflación en Europa": [
+      {
+        "_id": "1dctI5sBP5yYEGSnfUUp",
+        "_score": 1.3742335,
+        "title": "La recogida de basura se encarece casi tres euros al mes en los hogares de Orduña"
+      },
       {
         "_id": "7mRwEpsBawBZBRiWsxbX",
         "_score": 1.374028,
@@ -2994,11 +2999,6 @@
         "_id": "6TUf6ZoBY_uHLrwT3OvK",
         "_score": 1.353189,
         "title": "Imputan a la ex jefa diplomática de la UE Federica Mogherini por corrupción en contrato público y fraude"
-      },
-      {
-        "_id": "KyiM_JoBL6BCT6PtvZE-",
-        "_score": 1.3490505,
-        "title": "La Audiencia Nacional investiga una red de blanqueo de millones desde Venezuela que implica al dueño de la marca de gafas Hawkers"
       }
     ],
     "Eventos culturales en Madrid": [
@@ -3013,19 +3013,19 @@
         "title": "Bilbao está lleno de huellas de García Ergüin y se pueden ver gratis en iglesias, hoteles, bares, portales..."
       },
       {
+        "_id": "89ctI5sBP5yYEGSnfUUp",
+        "_score": 1.499274,
+        "title": "India Martínez: \"En el momento en el que Will Smith se me acercó al oído y empezó a decirme que quería cantar conmigo... Me quedé loca\""
+      },
+      {
+        "_id": "cdt1JJsBP5yYEGSnjQMC",
+        "_score": 1.488709,
+        "title": "Aburto, a los nuevos Ilustres de la Villa: «Sois el modelo de lo que deseamos para Bilbao»"
+      },
+      {
         "_id": "dus96ZoBWNoH_2TAKnGz",
         "_score": 1.4868603,
         "title": "El mercado navideño a una hora de Madrid que no te puedes perder este puente: uno de los pueblos más bonitos se llenará de artesanía, espectáculos y música"
-      },
-      {
-        "_id": "gTUf6ZoBY_uHLrwTlutN",
-        "_score": 1.4857969,
-        "title": "Ibon Areso, Gurutze Beitia, Begoña Etxebarria, Andrés Urrutia y Joaquín Achucarro, nuevos Ilustres de de Bilbao"
-      },
-      {
-        "_id": "332M_JoBPclaZKDfrhUq",
-        "_score": 1.48353,
-        "title": "Barcelona, la capital del running que rompe récords y seduce a Europa"
       }
     ],
     "Últimas noticias sobre economía digital": [
@@ -3072,14 +3072,14 @@
         "title": "Xiao y Robles se despiden de las WTT Finals con una nueva derrota"
       },
       {
+        "_id": "7XvjIZsBawBZBRiW46Qk",
+        "_score": 1.3263464,
+        "title": "El Atlético de Madrid se quedó a las puertas de ganar la Messi Cup"
+      },
+      {
         "_id": "9TUf6ZoBY_uHLrwT3OvK",
         "_score": 1.320744,
         "title": "Hoy, en la sede del COE, la Gala que premia los valores deportivos"
-      },
-      {
-        "_id": "EGRwEpsBawBZBRiWwBct",
-        "_score": 1.3123957,
-        "title": "Descomunal gol de Lucy Bronze en la victoria del Chelsea ante la Roma"
       }
     ],
     "Noticias sobre tecnología móvil": [
@@ -3087,6 +3087,11 @@
         "_id": "d3_V_ZoBPclaZKDfuwu0",
         "_score": 1.3834715,
         "title": "Así funciona la alerta de Google que llegó a los móviles Android por el terremoto"
+      },
+      {
+        "_id": "2IG-JZsBawBZBRiW-5B7",
+        "_score": 1.3595922,
+        "title": "¿Quieres tener el iPhone 16 Plus? Te cuento cómo ahorrar 230 euros y estrenar tu móvil de alta gama en Navidad"
       },
       {
         "_id": "DzUf6ZoBY_uHLrwT3OzK",
@@ -3099,14 +3104,9 @@
         "title": "No hubo ciberataque: el sistema de entradas sufrió estrés"
       },
       {
-        "_id": "chcd9poBL6BCT6PtP0jy",
-        "_score": 1.3275996,
-        "title": "Así puedes 'rascar' más cobertura para tu móvil"
-      },
-      {
-        "_id": "HM-YIJsBP5yYEGSn6fuh",
-        "_score": 1.3056216,
-        "title": "El Corte Inglés rebautiza como Kumo su empresa de centros de datos y lo celebra con el mayor contrato público de la historia de la filial"
+        "_id": "zFIIJ5sBEylyhe5X-bKx",
+        "_score": 1.3416624,
+        "title": "Ortuzar deja la consultora PwC para ser consejero de Movistar Plus+"
       }
     ],
     "Actualidad sobre el Parlamento Europeo": [
@@ -3148,6 +3148,11 @@
         "title": "ICEBlock, la app que rastreaba redadas del ICE, demanda a la Administración Trump por ser bloqueada de la tienda de Apple"
       },
       {
+        "_id": "M3viIZsBawBZBRiWFaJy",
+        "_score": 1.2309324,
+        "title": "Guerra Ucrania-Rusia, última hora en directo | Rusia derriba más de 200 drones ucranianos en las últimas doce horas"
+      },
+      {
         "_id": "vVvXDJsBawBZBRiWXnsG",
         "_score": 1.2205529,
         "title": "Estas son las ocupaciones con los salarios más elevados de Bilbao"
@@ -3156,11 +3161,6 @@
         "_id": "dmv38JoBPclaZKDfcYmp",
         "_score": 1.2196822,
         "title": "Cuidado si tu jefe te pide una transferencia urgente: pueden vaciar la cuenta de tu empresa"
-      },
-      {
-        "_id": "fOs96ZoBWNoH_2TAKnGz",
-        "_score": 1.2183167,
-        "title": "Bruselas abre una investigación antimonopolio sobre Meta por el acceso de proveedores de IA a WhatsApp"
       }
     ],
     "Últimas novedades en medicina": [
@@ -3197,24 +3197,24 @@
         "title": "La vida en Álava como nunca la habías visto"
       },
       {
+        "_id": "0tcsI5sBP5yYEGSn20Pa",
+        "_score": 1.3970584,
+        "title": "Construir a cotas más altas, naturalización de cauces... Euskadi se prepara para la subida del nivel del mar"
+      },
+      {
+        "_id": "unvkIZsBawBZBRiWOKVY",
+        "_score": 1.3835342,
+        "title": "Paisajes de Teruel afirma que la investigación de la UCO sobre Forestalia avala sus denuncias: \"Siempre ha sido nuestra palabra contra su dinero\""
+      },
+      {
         "_id": "andPH5sBawBZBRiWoO0H",
         "_score": 1.3821266,
         "title": "La Diputación limpiará cuatro playas de forma manual en invierno para proteger sus ecosistemas"
       },
       {
-        "_id": "2LGRBZsBDfrzuDgnREnw",
-        "_score": 1.3678517,
-        "title": "Elantxobe se integra en la sociedad de puertos deportivos de Euskadi"
-      },
-      {
-        "_id": "KTY-6ZoBY_uHLrwTrQy9",
-        "_score": 1.3618577,
-        "title": "Ella es Fabiola Quesada, protagonista de la nueva gran apuesta de RTVE, 'Dr. Fabiola Jones'"
-      },
-      {
-        "_id": "GjUf6ZoBY_uHLrwT3OzK",
-        "_score": 1.3596414,
-        "title": "La Feria de Agricultura y Artesanía de Atxondo reunirá una treintena de puestos"
+        "_id": "x3vjIZsBawBZBRiWGqMK",
+        "_score": 1.375033,
+        "title": "Bizkaia reduce su consumo energético en un 6% pero es responsable de más de la mitad de las emisiones en Euskadi"
       }
     ],
     "Resultados de partidos de fútbol recientes": [
@@ -3278,6 +3278,11 @@
         "title": "Ucrania forma a civiles y a periodistas para sobrevivir bajo los drones"
       },
       {
+        "_id": "TNt2JJsBP5yYEGSn0gdq",
+        "_score": 1.4270408,
+        "title": "Merz considera «imaginable» un alto el fuego entre Ucrania y Rusia tras la cumbre de Berlín"
+      },
+      {
         "_id": "6GRwEpsBawBZBRiWsxbX",
         "_score": 1.4259679,
         "title": "El jefe de la misión de rescate de María Corina Machado: “Fue una de las operaciones de mayor riesgo en las que he participado”"
@@ -3288,14 +3293,9 @@
         "title": "¿Para qué sirve la OEA?"
       },
       {
-        "_id": "rC8g_5oBL6BCT6PteZqX",
-        "_score": 1.4143778,
-        "title": "Starmer, Macron y Merz se reúnen con Zelenski en Londres tras las críticas de Trump «por no leer el plan de paz»"
-      },
-      {
-        "_id": "6phKDZsBP5yYEGSntnR_",
-        "_score": 1.4123232,
-        "title": "Los rebeldes del Congo se apoderan de la estratégica Uvira una semana después del acuerdo de paz"
+        "_id": "M3viIZsBawBZBRiWFaJy",
+        "_score": 1.4160639,
+        "title": "Guerra Ucrania-Rusia, última hora en directo | Rusia derriba más de 200 drones ucranianos en las últimas doce horas"
       }
     ],
     "Noticias sobre música y conciertos": [
@@ -3315,14 +3315,1123 @@
         "title": "Las estrellas del BBK Live 2026: Robbie Williams, David Byrne, Lily Allen, IDLES, Interpol y Belle and Sebastian"
       },
       {
-        "_id": "aBCJ85oBL6BCT6PtfIwj",
-        "_score": 1.4034536,
-        "title": "Coti se 'enzarza' con una espectadora en su concierto en Bilbao ante 150 asistentes"
+        "_id": "6nvkIZsBawBZBRiWOKVY",
+        "_score": 1.4243231,
+        "title": "The Hives, Alcalá Norte y Counting Crows se suman al Azkena"
       },
       {
-        "_id": "QvpQB5sB5klTY2FPpM_A",
-        "_score": 1.3841041,
-        "title": "El comunicado íntegro con el que la familia y Extremoduro ha anunciado su muerte: «Gracias, maestro»"
+        "_id": "6XvkIZsBawBZBRiWOKVY",
+        "_score": 1.4181291,
+        "title": "Lola Índigo se suma al festival BIGSOUND y pondrá a bailar a Barakaldo"
+      }
+    ]
+  },
+  "multilingual-e5-base": {
+    "Noticias sobre política": [
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0742689,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "vlIIJ5sBEylyhe5X-bKx",
+        "_score": 1.0690792,
+        "title": "Multados por querer borrar un 'Gora ETA' de una pared de Miranda"
+      },
+      {
+        "_id": "WZfZDJsBP5yYEGSnYDRl",
+        "_score": 1.068166,
+        "title": "“La casa rara” que odiaban sus vecinos: cómo Frank Gehry revolucionó un barrio con su propio hogar"
+      },
+      {
+        "_id": "S2v38JoBPclaZKDfcYmp",
+        "_score": 1.0673897,
+        "title": "Muere a los 96 años Frank Gehry, el arquitecto que revolucionó Bilbao"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0665115,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      }
+    ],
+    "Fútbol hoy": [
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.0915835,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0904962,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.0887346,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0882944,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "S2v38JoBPclaZKDfcYmp",
+        "_score": 1.0882437,
+        "title": "Muere a los 96 años Frank Gehry, el arquitecto que revolucionó Bilbao"
+      }
+    ],
+    "Clima en Madrid": [
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.091507,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "Zmv38JoBPclaZKDfcYmp",
+        "_score": 1.0888598,
+        "title": "El Mundial de las estrellas: los caminos de Messi y Cristiano, Mbappé-Haaland, ogros para Inglaterra y Brasil, unos cuartos de infarto..."
+      },
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.0875993,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "CGRwEpsBawBZBRiWwBct",
+        "_score": 1.0872219,
+        "title": "Calcuta inaugurará la estatua más alta del mundo de Messi"
+      },
+      {
+        "_id": "2dcsI5sBP5yYEGSn20Pa",
+        "_score": 1.0860307,
+        "title": "El Bellas Artes viaja al museo de Arte Sacro para mostrar a la iglesia como «centro de gravedad» de la sociedad vasca"
+      }
+    ],
+    "Tecnología e innovación": [
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.0982119,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0931402,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "KS8g_5oBL6BCT6PtGZkI",
+        "_score": 1.0913523,
+        "title": "Una Navidad a lo grande a escala 'mini'"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0891947,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0886467,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      }
+    ],
+    "Salud y medicina": [
+      {
+        "_id": "vlIIJ5sBEylyhe5X-bKx",
+        "_score": 1.0773661,
+        "title": "Multados por querer borrar un 'Gora ETA' de una pared de Miranda"
+      },
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0763856,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "2dcsI5sBP5yYEGSn20Pa",
+        "_score": 1.074987,
+        "title": "El Bellas Artes viaja al museo de Arte Sacro para mostrar a la iglesia como «centro de gravedad» de la sociedad vasca"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0741723,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "1V6TDpsBawBZBRiW8CF5",
+        "_score": 1.0718452,
+        "title": "Una “puntualización” en ‘La Revuelta’ sobre el VIH: “El peligro es tenerlo y no saber que lo tienes”"
+      }
+    ],
+    "Que ha pasado con la peste porcina": [
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.100172,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      },
+      {
+        "_id": "Agn38JoBL6BCT6PtltI3",
+        "_score": 1.0904235,
+        "title": "La Florida se pone el espumillón"
+      },
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.090347,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "ncxPH5sBP5yYEGSnzzYa",
+        "_score": 1.0901599,
+        "title": "Naranja fosforito y otras camisetas"
+      },
+      {
+        "_id": "1V6TDpsBawBZBRiW8CF5",
+        "_score": 1.0863082,
+        "title": "Una “puntualización” en ‘La Revuelta’ sobre el VIH: “El peligro es tenerlo y no saber que lo tienes”"
+      }
+    ],
+    "Quien es Pedro Sanchez": [
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.1287036,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.1095549,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      },
+      {
+        "_id": "Agn38JoBL6BCT6PtltI3",
+        "_score": 1.1060045,
+        "title": "La Florida se pone el espumillón"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.1058575,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "4BPS9JoBL6BCT6Pt6ejI",
+        "_score": 1.105236,
+        "title": "España jugará en Atlanta los dos primeros partidos del Mundial 2026 contra Cabo Verde y Arabia Saudí"
+      }
+    ],
+    "Últimas noticias de economía": [
+      {
+        "_id": "S2v38JoBPclaZKDfcYmp",
+        "_score": 1.0983106,
+        "title": "Muere a los 96 años Frank Gehry, el arquitecto que revolucionó Bilbao"
+      },
+      {
+        "_id": "SAn18JoBL6BCT6PtiswT",
+        "_score": 1.0934002,
+        "title": "Muere a los 96 años Frank Gehry, un gigante de la arquitectura y el metal"
+      },
+      {
+        "_id": "eBCI85oBL6BCT6PtxYrO",
+        "_score": 1.092879,
+        "title": "Las excursiones de Gehry por su amada Urdaibai: pimientos de Gernika y Vidarte como guía"
+      },
+      {
+        "_id": "TWv38JoBPclaZKDfcYmp",
+        "_score": 1.0919228,
+        "title": "Gehry deslumbra en Arlés con su tornado"
+      },
+      {
+        "_id": "WZfZDJsBP5yYEGSnYDRl",
+        "_score": 1.0906911,
+        "title": "“La casa rara” que odiaban sus vecinos: cómo Frank Gehry revolucionó un barrio con su propio hogar"
+      }
+    ],
+    "Resultados del FC Barcelona": [
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0828615,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "4HvkIZsBawBZBRiWOKVY",
+        "_score": 1.0804694,
+        "title": "Rescatados los 14 tripulantes gallegos de un pesquero encallado en Irlanda"
+      },
+      {
+        "_id": "I1vXDJsBawBZBRiWXnwG",
+        "_score": 1.0751836,
+        "title": "San Mamés vuelve a dar una lección: la cuarta mejor entrada de la historia"
+      },
+      {
+        "_id": "DzUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0742593,
+        "title": "Intervienen más de cien móviles valorados en 9.300 euros en el aeropuerto de Loiu a un pasajero que viajaba a Guinea"
+      },
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.071306,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      }
+    ],
+    "En que posiciones juega Eric Garcia": [
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.0968981,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "CGRwEpsBawBZBRiWwBct",
+        "_score": 1.0840323,
+        "title": "Calcuta inaugurará la estatua más alta del mundo de Messi"
+      },
+      {
+        "_id": "4HvkIZsBawBZBRiWOKVY",
+        "_score": 1.083524,
+        "title": "Rescatados los 14 tripulantes gallegos de un pesquero encallado en Irlanda"
+      },
+      {
+        "_id": "0FIKJ5sBEylyhe5XiLb5",
+        "_score": 1.0823147,
+        "title": "Brendan Rodgers releva a Míchel como entrenador del Al-Qadsiah"
+      },
+      {
+        "_id": "1V6TDpsBawBZBRiW8CF5",
+        "_score": 1.0797371,
+        "title": "Una “puntualización” en ‘La Revuelta’ sobre el VIH: “El peligro es tenerlo y no saber que lo tienes”"
+      }
+    ],
+    "Noticias sobre el cambio climático": [
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0777956,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "S2v38JoBPclaZKDfcYmp",
+        "_score": 1.0751514,
+        "title": "Muere a los 96 años Frank Gehry, el arquitecto que revolucionó Bilbao"
+      },
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.074627,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "1W7fGJsBawBZBRiWeQWQ",
+        "_score": 1.0711184,
+        "title": "La cuarta BIG Conference suma un millar de reuniones entre desarrolladores, editoras e inversores"
+      },
+      {
+        "_id": "2dcsI5sBP5yYEGSn20Pa",
+        "_score": 1.07059,
+        "title": "El Bellas Artes viaja al museo de Arte Sacro para mostrar a la iglesia como «centro de gravedad» de la sociedad vasca"
+      }
+    ],
+    "Últimas noticias internacionales": [
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0654396,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "Ic-YIJsBP5yYEGSn6fuh",
+        "_score": 1.0646085,
+        "title": "Los incendios forestales de 2025 en España han generado tanto CO₂ como cinco veces la aviación nacional o el doble de la industria del refino"
+      },
+      {
+        "_id": "W2yVF5sBawBZBRiW5wrG",
+        "_score": 1.0641339,
+        "title": "\"Pido disculpas a Messi, estamos investigando lo sucedido\""
+      },
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.0629457,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "Ki8f_5oBL6BCT6PtV5f7",
+        "_score": 1.062486,
+        "title": "Robados a punta de pistola ocho ‘collages’ de Matisse en una exposición en São Paulo"
+      }
+    ],
+    "Eventos deportivos esta semana": [
+      {
+        "_id": "W2yVF5sBawBZBRiW5wrG",
+        "_score": 1.0837928,
+        "title": "\"Pido disculpas a Messi, estamos investigando lo sucedido\""
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0801685,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0795175,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "CGpMFpsBawBZBRiWBw-W",
+        "_score": 1.0752385,
+        "title": "La comunidad toma el mando en la LALIGA FC26 COMMUNITY CHALLENGE"
+      },
+      {
+        "_id": "r30tI5sBawBZBRiWAp50",
+        "_score": 1.0750916,
+        "title": "Esta fue la respuesta de Salah a Rooney: quitarle un récord"
+      }
+    ],
+    "Consejos de salud mental": [
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0836163,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "2IG-JZsBawBZBRiW-5B7",
+        "_score": 1.081398,
+        "title": "¿Quieres tener el iPhone 16 Plus? Te cuento cómo ahorrar 230 euros y estrenar tu móvil de alta gama en Navidad"
+      },
+      {
+        "_id": "8gn38JoBL6BCT6PtltE3",
+        "_score": 1.0759195,
+        "title": "Carles Coll, tercer español con el doblete de oros mundial y europeo en piscina corta"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0749364,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0743432,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      }
+    ],
+    "Vacunas COVID-19 últimas noticias": [
+      {
+        "_id": "Agn38JoBL6BCT6PtltI3",
+        "_score": 1.0773325,
+        "title": "La Florida se pone el espumillón"
+      },
+      {
+        "_id": "DzUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0722562,
+        "title": "Intervienen más de cien móviles valorados en 9.300 euros en el aeropuerto de Loiu a un pasajero que viajaba a Guinea"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0719885,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "4HvkIZsBawBZBRiWOKVY",
+        "_score": 1.0715152,
+        "title": "Rescatados los 14 tripulantes gallegos de un pesquero encallado en Irlanda"
+      },
+      {
+        "_id": "KTY-6ZoBY_uHLrwTrQy9",
+        "_score": 1.0709984,
+        "title": "Ella es Fabiola Quesada, protagonista de la nueva gran apuesta de RTVE, 'Dr. Fabiola Jones'"
+      }
+    ],
+    "Noticias sobre inteligencia artificial": [
+      {
+        "_id": "An92JJsBawBZBRiWbplj",
+        "_score": 1.068074,
+        "title": "Ucrania asegura haber alcanzado por primera vez un submarino ruso con drones subacuáticos"
+      },
+      {
+        "_id": "dxCI85oBL6BCT6PtxYrO",
+        "_score": 1.064991,
+        "title": "Guerra Ucrania-Rusia, última hora en directo | Ataque masivo de Rusia antes de la reunión de la Casa Blanca y Kiev"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0624787,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "KTUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0616848,
+        "title": "El Baskonia acepta la marcha de Diallo a China y lo suple con el lituano Gytis Radzevicius"
+      },
+      {
+        "_id": "IM-YIJsBP5yYEGSn6fuh",
+        "_score": 1.0603596,
+        "title": "Rafael Grossi: “Las Naciones Unidas se olvidaron de para qué fueron creadas”"
+      }
+    ],
+    "Últimas tendencias en criptomonedas": [
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0974318,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0958847,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "eBCI85oBL6BCT6PtxYrO",
+        "_score": 1.0908403,
+        "title": "Las excursiones de Gehry por su amada Urdaibai: pimientos de Gernika y Vidarte como guía"
+      },
+      {
+        "_id": "CGpMFpsBawBZBRiWBw-W",
+        "_score": 1.0906702,
+        "title": "La comunidad toma el mando en la LALIGA FC26 COMMUNITY CHALLENGE"
+      },
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.0905557,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      }
+    ],
+    "Resultados de la lotería nacional": [
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0915524,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "unvkIZsBawBZBRiWOKVY",
+        "_score": 1.0874242,
+        "title": "Paisajes de Teruel afirma que la investigación de la UCO sobre Forestalia avala sus denuncias: \"Siempre ha sido nuestra palabra contra su dinero\""
+      },
+      {
+        "_id": "4HvkIZsBawBZBRiWOKVY",
+        "_score": 1.0843334,
+        "title": "Rescatados los 14 tripulantes gallegos de un pesquero encallado en Irlanda"
+      },
+      {
+        "_id": "dxCI85oBL6BCT6PtxYrO",
+        "_score": 1.0828741,
+        "title": "Guerra Ucrania-Rusia, última hora en directo | Ataque masivo de Rusia antes de la reunión de la Casa Blanca y Kiev"
+      },
+      {
+        "_id": "KTY-6ZoBY_uHLrwTrQy9",
+        "_score": 1.0804733,
+        "title": "Ella es Fabiola Quesada, protagonista de la nueva gran apuesta de RTVE, 'Dr. Fabiola Jones'"
+      }
+    ],
+    "Noticias sobre educación en España": [
+      {
+        "_id": "CzUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0773934,
+        "title": "El tirón de Inditex lleva al Ibex a nuevos máximos por encima de los 16.700 puntos"
+      },
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0742614,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0733216,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      },
+      {
+        "_id": "6BPS9JoBL6BCT6Pt6ejI",
+        "_score": 1.072672,
+        "title": "Cuatro contenedores quemados, bengalas y botellas contra la Ertzaintza en la marcha de GKS"
+      },
+      {
+        "_id": "vlIIJ5sBEylyhe5X-bKx",
+        "_score": 1.072243,
+        "title": "Multados por querer borrar un 'Gora ETA' de una pared de Miranda"
+      }
+    ],
+    "Pronóstico del tiempo para Barcelona": [
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.0804775,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0796206,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0773785,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "0HO8HJsBawBZBRiWV_ao",
+        "_score": 1.0755181,
+        "title": "Aterrador: Bissouma desvela qué le llevó a consumir el 'gas de la risa'"
+      },
+      {
+        "_id": "W2yVF5sBawBZBRiW5wrG",
+        "_score": 1.0710162,
+        "title": "\"Pido disculpas a Messi, estamos investigando lo sucedido\""
+      }
+    ],
+    "Noticias de cine y estrenos": [
+      {
+        "_id": "W2yVF5sBawBZBRiW5wrG",
+        "_score": 1.0930668,
+        "title": "\"Pido disculpas a Messi, estamos investigando lo sucedido\""
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0920694,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0903603,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "vlIIJ5sBEylyhe5X-bKx",
+        "_score": 1.0892451,
+        "title": "Multados por querer borrar un 'Gora ETA' de una pared de Miranda"
+      },
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0839142,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      }
+    ],
+    "Actualidad sobre la UEFA Champions League": [
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0931842,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0901474,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      },
+      {
+        "_id": "CGpMFpsBawBZBRiWBw-W",
+        "_score": 1.0890491,
+        "title": "La comunidad toma el mando en la LALIGA FC26 COMMUNITY CHALLENGE"
+      },
+      {
+        "_id": "1n92JJsBawBZBRiWU5g8",
+        "_score": 1.0848038,
+        "title": "Lío con el precio de las entradas del Mundial: \"Las familias se endeudarán\""
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0846223,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      }
+    ],
+    "Noticias sobre contaminación del aire": [
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.0811492,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      },
+      {
+        "_id": "WBPT9JoBL6BCT6PtYOoc",
+        "_score": 1.0810584,
+        "title": "El Manchester City aprovecha el tropiezo del Arsenal y da una dosis de realidad al Sunderland"
+      },
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.0741569,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0727758,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "1W7fGJsBawBZBRiWeQWQ",
+        "_score": 1.0709294,
+        "title": "La cuarta BIG Conference suma un millar de reuniones entre desarrolladores, editoras e inversores"
+      }
+    ],
+    "Últimos descubrimientos científicos": [
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.0743303,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "Ima6E5sBawBZBRiWHhp_",
+        "_score": 1.0741347,
+        "title": "La vida en Álava como nunca la habías visto"
+      },
+      {
+        "_id": "S2v38JoBPclaZKDfcYmp",
+        "_score": 1.0726736,
+        "title": "Muere a los 96 años Frank Gehry, el arquitecto que revolucionó Bilbao"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0719705,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.07046,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      }
+    ],
+    "Noticias sobre energías renovables": [
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0876341,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "S2v38JoBPclaZKDfcYmp",
+        "_score": 1.0859463,
+        "title": "Muere a los 96 años Frank Gehry, el arquitecto que revolucionó Bilbao"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0825047,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0792739,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0782777,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      }
+    ],
+    "Actualidad sobre elecciones locales": [
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0749063,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "1V6TDpsBawBZBRiW8CF5",
+        "_score": 1.0739142,
+        "title": "Una “puntualización” en ‘La Revuelta’ sobre el VIH: “El peligro es tenerlo y no saber que lo tienes”"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0732219,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "unvkIZsBawBZBRiWOKVY",
+        "_score": 1.0714413,
+        "title": "Paisajes de Teruel afirma que la investigación de la UCO sobre Forestalia avala sus denuncias: \"Siempre ha sido nuestra palabra contra su dinero\""
+      },
+      {
+        "_id": "7KMlEZsBP5yYEGSnwoG5",
+        "_score": 1.0683235,
+        "title": "Un viajero interestelar se acerca más que nunca a la Tierra, ¿cómo observar al cometa 3I/ATLAS?"
+      }
+    ],
+    "Últimas noticias sobre transporte público": [
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0993656,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      },
+      {
+        "_id": "KTY-6ZoBY_uHLrwTrQy9",
+        "_score": 1.0985141,
+        "title": "Ella es Fabiola Quesada, protagonista de la nueva gran apuesta de RTVE, 'Dr. Fabiola Jones'"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0975603,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.0973016,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      },
+      {
+        "_id": "Agn38JoBL6BCT6PtltI3",
+        "_score": 1.0901147,
+        "title": "La Florida se pone el espumillón"
+      }
+    ],
+    "Consejos de alimentación saludable": [
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.074127,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "2IG-JZsBawBZBRiW-5B7",
+        "_score": 1.0706476,
+        "title": "¿Quieres tener el iPhone 16 Plus? Te cuento cómo ahorrar 230 euros y estrenar tu móvil de alta gama en Navidad"
+      },
+      {
+        "_id": "ODY-6ZoBY_uHLrwTrQy9",
+        "_score": 1.0681524,
+        "title": "La miniserie española de tres capítulos de HBO Max basada en hechos reales que no baja del Top 3: perfecta para ver en una tarde"
+      },
+      {
+        "_id": "7KMlEZsBP5yYEGSnwoG5",
+        "_score": 1.0670873,
+        "title": "Un viajero interestelar se acerca más que nunca a la Tierra, ¿cómo observar al cometa 3I/ATLAS?"
+      },
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0659913,
+        "title": "Nuevo espacio creativo"
+      }
+    ],
+    "Noticias sobre inflación en Europa": [
+      {
+        "_id": "TWv38JoBPclaZKDfcYmp",
+        "_score": 1.0741956,
+        "title": "Gehry deslumbra en Arlés con su tornado"
+      },
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0721529,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      },
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0707133,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "CGpMFpsBawBZBRiWBw-W",
+        "_score": 1.0703653,
+        "title": "La comunidad toma el mando en la LALIGA FC26 COMMUNITY CHALLENGE"
+      },
+      {
+        "_id": "S2v38JoBPclaZKDfcYmp",
+        "_score": 1.0692201,
+        "title": "Muere a los 96 años Frank Gehry, el arquitecto que revolucionó Bilbao"
+      }
+    ],
+    "Eventos culturales en Madrid": [
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0838609,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      },
+      {
+        "_id": "Zmv38JoBPclaZKDfcYmp",
+        "_score": 1.0810161,
+        "title": "El Mundial de las estrellas: los caminos de Messi y Cristiano, Mbappé-Haaland, ogros para Inglaterra y Brasil, unos cuartos de infarto..."
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0803453,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "CGpMFpsBawBZBRiWBw-W",
+        "_score": 1.0798882,
+        "title": "La comunidad toma el mando en la LALIGA FC26 COMMUNITY CHALLENGE"
+      },
+      {
+        "_id": "zHvkIZsBawBZBRiWOKVY",
+        "_score": 1.0751355,
+        "title": "El magnate Jimmy Lai, declarado culpable de conspiración y sedición en Hong Kong"
+      }
+    ],
+    "Últimas noticias sobre economía digital": [
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.0842558,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      },
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.083802,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      },
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0758905,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0753994,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "mMxPH5sBP5yYEGSnzzYa",
+        "_score": 1.074687,
+        "title": "El Athletic cae en un agujero negro en Balaídos | El Correo"
+      }
+    ],
+    "Resultados deportivos del fin de semana": [
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0933434,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "1W7fGJsBawBZBRiWeQWQ",
+        "_score": 1.0893776,
+        "title": "La cuarta BIG Conference suma un millar de reuniones entre desarrolladores, editoras e inversores"
+      },
+      {
+        "_id": "4HvkIZsBawBZBRiWOKVY",
+        "_score": 1.0857313,
+        "title": "Rescatados los 14 tripulantes gallegos de un pesquero encallado en Irlanda"
+      },
+      {
+        "_id": "W2yVF5sBawBZBRiW5wrG",
+        "_score": 1.0828328,
+        "title": "\"Pido disculpas a Messi, estamos investigando lo sucedido\""
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0778625,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      }
+    ],
+    "Noticias sobre tecnología móvil": [
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0753233,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "Zmv38JoBPclaZKDfcYmp",
+        "_score": 1.0704888,
+        "title": "El Mundial de las estrellas: los caminos de Messi y Cristiano, Mbappé-Haaland, ogros para Inglaterra y Brasil, unos cuartos de infarto..."
+      },
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0692651,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0682986,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "KS8g_5oBL6BCT6PtGZkI",
+        "_score": 1.0675352,
+        "title": "Una Navidad a lo grande a escala 'mini'"
+      }
+    ],
+    "Actualidad sobre el Parlamento Europeo": [
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0950779,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "22gDFZsBawBZBRiW3BUG",
+        "_score": 1.0916153,
+        "title": "Atapuerca"
+      },
+      {
+        "_id": "1V6TDpsBawBZBRiW8CF5",
+        "_score": 1.0889132,
+        "title": "Una “puntualización” en ‘La Revuelta’ sobre el VIH: “El peligro es tenerlo y no saber que lo tienes”"
+      },
+      {
+        "_id": "Ima6E5sBawBZBRiWHhp_",
+        "_score": 1.0871265,
+        "title": "La vida en Álava como nunca la habías visto"
+      },
+      {
+        "_id": "ITY-6ZoBY_uHLrwTrQy9",
+        "_score": 1.0839244,
+        "title": "El Govern afirma que la gran mayoría de los 50 jabalíes hallados muertos han dado negativo de peste porcina"
+      }
+    ],
+    "Noticias sobre seguridad cibernética": [
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0977253,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0949538,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "CzUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0913258,
+        "title": "El tirón de Inditex lleva al Ibex a nuevos máximos por encima de los 16.700 puntos"
+      },
+      {
+        "_id": "EVvXDJsBawBZBRiWXnwG",
+        "_score": 1.0911508,
+        "title": "16 colosos vestidos de rojo y blanco"
+      },
+      {
+        "_id": "Sgn18JoBL6BCT6PtiswT",
+        "_score": 1.08972,
+        "title": "Así queda el grupo de España en el Mundial 2026: rivales, sedes y fechas"
+      }
+    ],
+    "Últimas novedades en medicina": [
+      {
+        "_id": "7WgDFZsBawBZBRiW3BUG",
+        "_score": 1.0849712,
+        "title": "Nuevo espacio creativo"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0835186,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "vlIIJ5sBEylyhe5X-bKx",
+        "_score": 1.078282,
+        "title": "Multados por querer borrar un 'Gora ETA' de una pared de Miranda"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0769901,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "S2v38JoBPclaZKDfcYmp",
+        "_score": 1.0739659,
+        "title": "Muere a los 96 años Frank Gehry, el arquitecto que revolucionó Bilbao"
+      }
+    ],
+    "Noticias sobre fauna y medio ambiente": [
+      {
+        "_id": "unvkIZsBawBZBRiWOKVY",
+        "_score": 1.0709212,
+        "title": "Paisajes de Teruel afirma que la investigación de la UCO sobre Forestalia avala sus denuncias: \"Siempre ha sido nuestra palabra contra su dinero\""
+      },
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.068977,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      },
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.0682191,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "W2yVF5sBawBZBRiW5wrG",
+        "_score": 1.0667363,
+        "title": "\"Pido disculpas a Messi, estamos investigando lo sucedido\""
+      },
+      {
+        "_id": "KTY-6ZoBY_uHLrwTrQy9",
+        "_score": 1.063006,
+        "title": "Ella es Fabiola Quesada, protagonista de la nueva gran apuesta de RTVE, 'Dr. Fabiola Jones'"
+      }
+    ],
+    "Resultados de partidos de fútbol recientes": [
+      {
+        "_id": "W2yVF5sBawBZBRiW5wrG",
+        "_score": 1.0834022,
+        "title": "\"Pido disculpas a Messi, estamos investigando lo sucedido\""
+      },
+      {
+        "_id": "DzUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0813669,
+        "title": "Intervienen más de cien móviles valorados en 9.300 euros en el aeropuerto de Loiu a un pasajero que viajaba a Guinea"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0803779,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      },
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.0790275,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "2IG-JZsBawBZBRiW-5B7",
+        "_score": 1.0757561,
+        "title": "¿Quieres tener el iPhone 16 Plus? Te cuento cómo ahorrar 230 euros y estrenar tu móvil de alta gama en Navidad"
+      }
+    ],
+    "Noticias sobre exploración espacial": [
+      {
+        "_id": "zHvkIZsBawBZBRiWOKVY",
+        "_score": 1.0774295,
+        "title": "El magnate Jimmy Lai, declarado culpable de conspiración y sedición en Hong Kong"
+      },
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.0754868,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      },
+      {
+        "_id": "6BPS9JoBL6BCT6Pt6ejI",
+        "_score": 1.0754328,
+        "title": "Cuatro contenedores quemados, bengalas y botellas contra la Ertzaintza en la marcha de GKS"
+      },
+      {
+        "_id": "LDUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0728756,
+        "title": "La cuadrilla de Xanet le alienta en su debut con el Alavés"
+      },
+      {
+        "_id": "DzUf6ZoBY_uHLrwT3OzK",
+        "_score": 1.0697421,
+        "title": "Intervienen más de cien móviles valorados en 9.300 euros en el aeropuerto de Loiu a un pasajero que viajaba a Guinea"
+      }
+    ],
+    "Últimas noticias sobre conflictos internacionales": [
+      {
+        "_id": "S2v38JoBPclaZKDfcYmp",
+        "_score": 1.0827183,
+        "title": "Muere a los 96 años Frank Gehry, el arquitecto que revolucionó Bilbao"
+      },
+      {
+        "_id": "SAn18JoBL6BCT6PtiswT",
+        "_score": 1.0803974,
+        "title": "Muere a los 96 años Frank Gehry, un gigante de la arquitectura y el metal"
+      },
+      {
+        "_id": "kjUf6ZoBY_uHLrwTlutN",
+        "_score": 1.0766383,
+        "title": "Tenaglia, de las lágrimas por el ascenso del Alavés a declarar su amor por Vitoria"
+      },
+      {
+        "_id": "1W7fGJsBawBZBRiWeQWQ",
+        "_score": 1.0751845,
+        "title": "La cuarta BIG Conference suma un millar de reuniones entre desarrolladores, editoras e inversores"
+      },
+      {
+        "_id": "Yq4DFZsBP5yYEGSnRYBM",
+        "_score": 1.0730038,
+        "title": "BIG Conference pone en valor las industrias creativas de Bizkaia"
+      }
+    ],
+    "Noticias sobre música y conciertos": [
+      {
+        "_id": "unvkIZsBawBZBRiWOKVY",
+        "_score": 1.0943304,
+        "title": "Paisajes de Teruel afirma que la investigación de la UCO sobre Forestalia avala sus denuncias: \"Siempre ha sido nuestra palabra contra su dinero\""
+      },
+      {
+        "_id": "83tD-5oBPclaZKDfTh_0",
+        "_score": 1.0895759,
+        "title": "Liderato del Nápoles con doblete de Hojlund ante una Juve que se descuelga"
+      },
+      {
+        "_id": "JiH5-ZoBL6BCT6PtpJpX",
+        "_score": 1.0895182,
+        "title": "El estadio del Rayo Vallecano convierte su memoria en arte en sus muros exteriores"
+      },
+      {
+        "_id": "W2yVF5sBawBZBRiW5wrG",
+        "_score": 1.0894107,
+        "title": "\"Pido disculpas a Messi, estamos investigando lo sucedido\""
+      },
+      {
+        "_id": "Ic-YIJsBP5yYEGSn6fuh",
+        "_score": 1.0882287,
+        "title": "Los incendios forestales de 2025 en España han generado tanto CO₂ como cinco veces la aviación nacional o el doble de la industria del refino"
       }
     ]
   }

@@ -1,6 +1,15 @@
 # Benchmark de Modelos de Embeddings en Elasticsearch
 
-Este proyecto permite evaluar múltiples modelos de embeddings para búsquedas semánticas en documentos indexados en Elasticsearch. Genera resultados detallados de los documentos más relevantes y calcula estadísticas de los scores de los modelos.
+Este proyecto permite evaluar múltiples modelos de embeddings para búsquedas semánticas en documentos indexados en Elasticsearch. Genera resultados detallados de los documentos más relevantes y calcula estadísticas de los 4 modelos probados.
+
+---
+
+## Modelos Probados
+
+- **all-mpnet-base-v2**
+- **jhgan/ko-sroberta-multitask**
+- **paraphrase-multilingual-mpnet-base-v2**
+- **multilingual-e5-base**
 
 ---
 
@@ -8,7 +17,7 @@ Este proyecto permite evaluar múltiples modelos de embeddings para búsquedas s
 
 - `run_benchmark.py` – Script principal para ejecutar el benchmark.
 - `benchmark_results.json` – Resultados de las búsquedas para cada modelo y query.
-- `model_scores_average.json` – Media de scores por modelo para todas las queries.
+- `model_metric.json` – Resultados generales de cada modelo.
 
 ---
 
